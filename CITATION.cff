@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Leakage-controlled short-interval DeltaMRI improves MCI-to-AD prediction"
+message: "If you use this code, please cite the associated manuscript."
+authors:
+  - family-names: Hyun
+    given-names: Jaeyeol
+  - family-names: Hyun
+    given-names: Jaemyung
+  - family-names: Jun
+    given-names: Saehyun
+  - family-names: Ducza
+    given-names: Laszlo
+  - family-names: Gaal
+    given-names: Botond A
+version: 1.0.0
+date-released: 2026-06-15

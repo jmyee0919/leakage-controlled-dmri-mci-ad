@@ -1,0 +1,7 @@
+analysis_name: synthetic_3_18
+window_months: [3, 18]
+seeds: [42, 43, 44]
+random_state: 42
+test_size: 0.30
+calibration: sigmoid
+model: logistic_regression

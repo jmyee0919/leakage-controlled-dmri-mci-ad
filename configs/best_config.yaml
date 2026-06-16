@@ -1,0 +1,31 @@
+simulation_config:
+  n_subjects: 10000
+  converter_ratio: 0.45
+  seed: 3
+  interval_months: [12.0, 30.0]
+  classes:
+    stable_mci:
+      hippo_mean: 2850.0
+      hippo_sd: 250.0
+      vent_mean: 24000.0
+      vent_sd: 6000.0
+      hippo_rate_mean: -3.2
+      hippo_rate_sd: 0.8
+      vent_rate_mean: 15.0
+      vent_rate_sd: 3.0
+    progressive_mci:
+      hippo_mean: 2550.0
+      hippo_sd: 280.0
+      vent_mean: 27000.0
+      vent_sd: 6500.0
+      hippo_rate_mean: -5.2
+      hippo_rate_sd: 1.0
+      vent_rate_mean: 23.0
+      vent_rate_sd: 3.5
+  noise:
+    hippo_noise_frac: 0.035
+    vent_noise_frac: 0.035
+  clip_bounds:
+    hippo: [2200.0, 4200.0]
+    vent: [8000.0, 75000.0]
+  generated_at: 2025-11-04T07:53:51.393535Z

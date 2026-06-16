@@ -1,0 +1,7 @@
+dataset,window,comparison_set,model,n_seeds,roc_auc_mean,roc_auc_sd,pr_ap_mean,pr_ap_sd,brier_mean,brier_sd,delta_auc_mean,delta_auc_sd,delong_p_range_low,delong_p_range_high
+Synthetic,3-18,Snapshot only,Logistic,3,0.873,0.01,0.829,0.044,0.139,0.002,,,,
+Synthetic,3-18,Snapshot+Change,Logistic,3,0.947,0.01,0.917,0.035,0.086,0.006,0.0737,0.0026,7.84e-37,1.37e-46
+Synthetic,6-24,Snapshot only,Logistic,3,0.875,0.008,0.833,0.012,0.138,0.009,,,,
+Synthetic,6-24,Snapshot+Change,Logistic,3,0.976,0.004,0.967,0.006,0.055,0.006,0.1009,0.0053,3.21e-55,3.99e-69
+Synthetic,12-30,Snapshot only,Logistic,3,0.873,0.01,0.819,0.044,0.137,0.006,,,,
+Synthetic,12-30,Snapshot+Change,Logistic,3,0.993,0.002,0.989,0.005,0.029,0.005,0.1194,0.0084,1.98e-82,7.21e-75

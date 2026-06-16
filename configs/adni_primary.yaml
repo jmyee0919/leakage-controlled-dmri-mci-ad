@@ -1,0 +1,14 @@
+# Primary ADNI analysis configuration
+analysis_name: adni_filtered_sigmoid_3_18
+cohort: filtered
+calibration: sigmoid
+window_months: [3, 18]
+random_state: 42
+test_size: 0.30
+model: logistic_regression
+comparison:
+  baseline: Snapshot only
+  longitudinal: Snapshot + DeltaMRI
+notes: |
+  Requires authorized ADNI/LONI participant-level data placed in data/raw/.
+  ADNI participant-level data are not redistributed in this repository.

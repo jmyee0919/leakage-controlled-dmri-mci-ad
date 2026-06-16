@@ -1,0 +1,17 @@
+name: dmri-mci-ad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pip
+  - pip:
+      - streamlit
+      - xgboost
+      - shap
