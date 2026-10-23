@@ -1,0 +1,24 @@
+description,value,unit
+Retained participants,106,participants
+Recorded AD events,35,participants
+Baseline prior diagnosis fallback,54,participants
+Index prior diagnosis fallback,35,participants
+AD assessment within 1 day,1,participants
+AD assessment within 7 days,3,participants
+AD assessment within 30 days,5,participants
+AD assessment within 90 days,6,participants
+Baseline hippocampus outside historical snapshot limits,7,participants
+Baseline ventricle outside historical snapshot limits,4,participants
+Either baseline measure outside historical snapshot limits,10,participants
+Outside limits in training,6,participants
+Outside limits in holdout,4,participants
+Recorded events outside limits,1,participants
+hippo pair change min,-14.135012386457468,percent across pair
+hippo pair change max,-0.03983428935627753,percent across pair
+entorh pair change min,-41.34165366614665,percent across pair
+entorh pair change max,37.56735950731331,percent across pair
+vent pair change min,0.09045661658595439,percent across pair
+vent pair change max,16.15135210312666,percent across pair
+Early AD lag after MRI,"1, 5, 7, 9, 14",days
+Prior MCI gap in five early AD cases,141-174,days before MRI
+Early AD cases in training / holdout,4 / 1,participants

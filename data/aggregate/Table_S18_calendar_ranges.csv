@@ -1,0 +1,5 @@
+outcome,date_type,N,first_date,last_date
+Confirmed non-event,baseline_date,71,2007-05-07,2022-07-15
+Confirmed non-event,information_date,71,2007-11-01,2023-07-12
+AD event,baseline_date,35,2006-08-24,2013-02-05
+AD event,information_date,35,2007-03-08,2014-01-28

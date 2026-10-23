@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "frozen_source_unchanged": true,
+  "maximum_independent_replay_error": 0.0,
+  "MRI_visit_DX_verified": false,
+  "scope": "Reproduction from trusted frozen inputs; no raw diagnosis adjudication or independent validation.",
+  "source_specification_sha256": "f07ecb0e983e247dc5ed38c22eac814da074e5b9998fff2a771624ff4ba1ce83",
+  "source_runner_sha256": "57ef8dc22ff4c9774d3415c1ed96f047420608567bf53156fa1bd7511125bb20",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.0",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "statsmodels": "0.14.6"
+  }
+}

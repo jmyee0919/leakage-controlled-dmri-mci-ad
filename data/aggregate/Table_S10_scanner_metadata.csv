@@ -1,0 +1,141 @@
+endpoint,variable,category,count,unit
+baseline,ADNI_phase,ADNI2,57,scan endpoints
+baseline,ADNI_phase,ADNI1,31,scan endpoints
+baseline,ADNI_phase,ADNI3,10,scan endpoints
+baseline,ADNI_phase,ADNIGO,8,scan endpoints
+baseline,field_strength_T,3.0,70,scan endpoints
+baseline,field_strength_T,1.5,36,scan endpoints
+baseline,FreeSurfer_processing_version,7.2.0,106,scan endpoints
+baseline,scanner_manufacturer,SIEMENS,51,scan endpoints
+baseline,scanner_manufacturer,GE,28,scan endpoints
+baseline,scanner_manufacturer,PHILIPS,17,scan endpoints
+baseline,scanner_manufacturer,Unrated/unavailable,10,scan endpoints
+baseline,scanner_model,TrioTim,15,scan endpoints
+baseline,scanner_model,Verio,15,scan endpoints
+baseline,scanner_model,Unrated/unavailable,10,scan endpoints
+baseline,scanner_model,DISCOVERY MR750,9,scan endpoints
+baseline,scanner_model,Achieva,9,scan endpoints
+baseline,scanner_model,Signa HDxt,7,scan endpoints
+baseline,scanner_model,Sonata,6,scan endpoints
+baseline,scanner_model,Intera,5,scan endpoints
+baseline,scanner_model,Symphony,5,scan endpoints
+baseline,scanner_model,Avanto,5,scan endpoints
+baseline,scanner_model,SIGNA Premier,5,scan endpoints
+baseline,scanner_model,Skyra,4,scan endpoints
+baseline,scanner_model,SIGNA EXCITE,3,scan endpoints
+baseline,scanner_model,DISCOVERY MR750w,3,scan endpoints
+baseline,scanner_model,GEMINI,2,scan endpoints
+baseline,scanner_model,SIGNA HDx,1,scan endpoints
+baseline,scanner_model,SonataVision,1,scan endpoints
+baseline,scanner_model,Ingenia Elition X,1,scan endpoints
+baseline,scanner_software_version,syngo MR B17,30,scan endpoints
+baseline,scanner_software_version,syngo MR 2004A 4VA25A,11,scan endpoints
+baseline,scanner_software_version,Unrated/unavailable,10,scan endpoints
+baseline,scanner_software_version,3.2.1\3.2.1.1,6,scan endpoints
+baseline,scanner_software_version,syngo MR B13 4VB13A,4,scan endpoints
+baseline,scanner_software_version,3.2.1\3.2.1.0,3,scan endpoints
+baseline,scanner_software_version,15\LX\MR Software release:15.0_M4_0910.a,3,scan endpoints
+baseline,scanner_software_version,23\LX\MR Software release:DV22.0_V02_1122.a,3,scan endpoints
+baseline,scanner_software_version,syngo MR D11,3,scan endpoints
+baseline,scanner_software_version,28\LX\MR Software release:RX28.0_R04_2020.b,3,scan endpoints
+baseline,scanner_software_version,2.6.3\2.6.3.4,2,scan endpoints
+baseline,scanner_software_version,2.6.3\2.6.3.7,2,scan endpoints
+baseline,scanner_software_version,20\LX\MR Software release:20.0_M4_0923.c,2,scan endpoints
+baseline,scanner_software_version,15\LX\MR Software release:15.0_M4A_0947.a,2,scan endpoints
+baseline,scanner_software_version,12\LX\MR Software release:12.0_M5_0606.b,2,scan endpoints
+baseline,scanner_software_version,28\LX\MR Software release:RX28.0_R05_2035.a,2,scan endpoints
+baseline,scanner_software_version,27\LX\MR Software release:DV26.0_R02_1810.b,2,scan endpoints
+baseline,scanner_software_version,24\LX\MR Software release:HD16.0_V02_1131.a,1,scan endpoints
+baseline,scanner_software_version,14\LX\MR Software release:14.0_M4_0629.a,1,scan endpoints
+baseline,scanner_software_version,21\LX\MR Software release:20.1_IB2_1020.a,1,scan endpoints
+baseline,scanner_software_version,11,1,scan endpoints
+baseline,scanner_software_version,23\LX\MR Software release:DV23.0_V03_1248.a,1,scan endpoints
+baseline,scanner_software_version,23\LX\MR Software release:DV23.1_V02_1317.c,1,scan endpoints
+baseline,scanner_software_version,27\LX\MR Software release:DV25.1_R03_1802.a,1,scan endpoints
+baseline,scanner_software_version,24\LX\MR Software release:HD16.0_V01_1108.b,1,scan endpoints
+baseline,scanner_software_version,11.1.3\11.1.3.1\Gyroscan PMS,1,scan endpoints
+baseline,scanner_software_version,syngo MR D13,1,scan endpoints
+baseline,scanner_software_version,syngo MR A30 4VA30A,1,scan endpoints
+baseline,scanner_software_version,2.6.3\2.6.3.5,1,scan endpoints
+baseline,scanner_software_version,5.6.1\5.6.1.0,1,scan endpoints
+baseline,scanner_software_version,syngo MR B15,1,scan endpoints
+baseline,scanner_software_version,12.1.1\12.1.1.2\Gyroscan PMS/DICOM 4.0 MR  $Revision: 6.30 $,1,scan endpoints
+baseline,scanner_software_version,27\LX\MR Software release:DV25.1_R02_1649.a,1,scan endpoints
+baseline,FS_image_match,unambiguous source-volume-compatible recovered image,106,scan endpoints
+baseline,QC_match,participant/date/phase/visit-compatible; image unverified,87,scan endpoints
+baseline,QC_match,exact recovered source-image ID/participant/date,10,scan endpoints
+baseline,QC_match,unavailable,9,scan endpoints
+baseline,site_match,participant/date/phase/visit/field-compatible; image unverified,106,scan endpoints
+baseline,MRIQC_field_strength_T,3.0,70,scan endpoints
+baseline,MRIQC_field_strength_T,1.5,26,scan endpoints
+baseline,MRIQC_field_strength_T,Unrated/unavailable,10,scan endpoints
+baseline,distinct_recorded_sites,count of available site categories,49,sites; linkage tier separately reported
+second_MRI,ADNI_phase,ADNI2,63,scan endpoints
+second_MRI,ADNI_phase,ADNI1,28,scan endpoints
+second_MRI,ADNI_phase,ADNI3,10,scan endpoints
+second_MRI,ADNI_phase,ADNIGO,5,scan endpoints
+second_MRI,field_strength_T,3.0,70,scan endpoints
+second_MRI,field_strength_T,1.5,36,scan endpoints
+second_MRI,FreeSurfer_processing_version,7.2.0,106,scan endpoints
+second_MRI,scanner_manufacturer,SIEMENS,44,scan endpoints
+second_MRI,scanner_manufacturer,GE,24,scan endpoints
+second_MRI,scanner_manufacturer,Unrated/unavailable,21,scan endpoints
+second_MRI,scanner_manufacturer,PHILIPS,17,scan endpoints
+second_MRI,scanner_model,Unrated/unavailable,21,scan endpoints
+second_MRI,scanner_model,TrioTim,15,scan endpoints
+second_MRI,scanner_model,Verio,15,scan endpoints
+second_MRI,scanner_model,Achieva,10,scan endpoints
+second_MRI,scanner_model,DISCOVERY MR750,9,scan endpoints
+second_MRI,scanner_model,SIGNA Premier,6,scan endpoints
+second_MRI,scanner_model,Signa HDxt,5,scan endpoints
+second_MRI,scanner_model,Intera,4,scan endpoints
+second_MRI,scanner_model,Sonata,4,scan endpoints
+second_MRI,scanner_model,Symphony,4,scan endpoints
+second_MRI,scanner_model,Skyra,4,scan endpoints
+second_MRI,scanner_model,Avanto,2,scan endpoints
+second_MRI,scanner_model,DISCOVERY MR750w,2,scan endpoints
+second_MRI,scanner_model,SIGNA HDx,1,scan endpoints
+second_MRI,scanner_model,GEMINI,1,scan endpoints
+second_MRI,scanner_model,Ingenuity,1,scan endpoints
+second_MRI,scanner_model,Ingenia Elition X,1,scan endpoints
+second_MRI,scanner_model,SIGNA EXCITE,1,scan endpoints
+second_MRI,scanner_software_version,syngo MR B17,30,scan endpoints
+second_MRI,scanner_software_version,Unrated/unavailable,22,scan endpoints
+second_MRI,scanner_software_version,syngo MR 2004A 4VA25A,6,scan endpoints
+second_MRI,scanner_software_version,3.2.1\3.2.1.1,5,scan endpoints
+second_MRI,scanner_software_version,28\LX\MR Software release:RX28.0_R05_2035.a,5,scan endpoints
+second_MRI,scanner_software_version,3.2.1\3.2.1.0,3,scan endpoints
+second_MRI,scanner_software_version,syngo MR D13,3,scan endpoints
+second_MRI,scanner_software_version,24\LX\MR Software release:HD16.0_V02_1131.a,2,scan endpoints
+second_MRI,scanner_software_version,3.2.3\3.2.3.0,2,scan endpoints
+second_MRI,scanner_software_version,23\LX\MR Software release:DV23.1_V02_1317.c,2,scan endpoints
+second_MRI,scanner_software_version,24\LX\MR Software release:DV24.0_R01_1344.a,2,scan endpoints
+second_MRI,scanner_software_version,syngo MR A30 4VA30A,2,scan endpoints
+second_MRI,scanner_software_version,syngo MR B13 4VB13A,2,scan endpoints
+second_MRI,scanner_software_version,15\LX\MR Software release:15.0_M4A_0947.a,2,scan endpoints
+second_MRI,scanner_software_version,27\LX\MR Software release:DV26.0_R02_1810.b,2,scan endpoints
+second_MRI,scanner_software_version,3.2.3\3.2.3.1,1,scan endpoints
+second_MRI,scanner_software_version,14\LX\MR Software release:14.0_M4_0629.a,1,scan endpoints
+second_MRI,scanner_software_version,21\LX\MR Software release:20.1_IB2_1020.a,1,scan endpoints
+second_MRI,scanner_software_version,2.6.3\2.6.3.4,1,scan endpoints
+second_MRI,scanner_software_version,3.2.2\3.2.2.0,1,scan endpoints
+second_MRI,scanner_software_version,20\LX\MR Software release:20.0_M4_0923.c,1,scan endpoints
+second_MRI,scanner_software_version,23\LX\MR Software release:DV23.0_V03_1248.a,1,scan endpoints
+second_MRI,scanner_software_version,29\LX\DV29.1_R02_2131.a,1,scan endpoints
+second_MRI,scanner_software_version,5.7.1\5.7.1.2,1,scan endpoints
+second_MRI,scanner_software_version,12.1.5\12.1.5.5\Gyroscan PMS/DICOM 4.0 MR  $Revision: 6.30 $,1,scan endpoints
+second_MRI,scanner_software_version,15\LX\MR Software release:15.0_M3_0845.c,1,scan endpoints
+second_MRI,scanner_software_version,23\LX\MR Software release:DV22.0_V02_1122.a,1,scan endpoints
+second_MRI,scanner_software_version,28\LX\MR Software release:RX28.0_R04_2020.b,1,scan endpoints
+second_MRI,scanner_software_version,12\LX\MR Software release:12.0_M5_0606.b,1,scan endpoints
+second_MRI,scanner_software_version,2.6.3\2.6.3.7,1,scan endpoints
+second_MRI,scanner_software_version,syngo MR D11,1,scan endpoints
+second_MRI,FS_image_match,unambiguous source-volume-compatible recovered image,106,scan endpoints
+second_MRI,QC_match,participant/date/phase/visit-compatible; image unverified,77,scan endpoints
+second_MRI,QC_match,unavailable,19,scan endpoints
+second_MRI,QC_match,exact recovered source-image ID/participant/date,10,scan endpoints
+second_MRI,site_match,participant/date/phase/visit/field-compatible; image unverified,106,scan endpoints
+second_MRI,MRIQC_field_strength_T,3.0,70,scan endpoints
+second_MRI,MRIQC_field_strength_T,Unrated/unavailable,21,scan endpoints
+second_MRI,MRIQC_field_strength_T,1.5,15,scan endpoints
+second_MRI,distinct_recorded_sites,count of available site categories,48,sites; linkage tier separately reported

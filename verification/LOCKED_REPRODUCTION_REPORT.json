@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Isolated deterministic reproduction of the locked fits from frozen cohort artifacts, not raw source ingestion or independent validation. Original source/predictions unchanged.",
+  "base_logistic_models_rebuilt": 240,
+  "sigmoid_calibrators_rebuilt": 240,
+  "individual_probabilities_compared": 2712,
+  "maximum_probability_error": 3.3306690738754696e-16,
+  "prediction_tolerance": 1e-06,
+  "protected_source_files": 295,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.0",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  }
+}

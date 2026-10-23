@@ -1,0 +1,141 @@
+version: step2C_correlated_appendix_A_v1
+role: methodological positive control only
+cohort:
+  n_subjects: 10000
+  converter_probability: 0.4
+  preconversion_gap_months: 6
+  outcome: Assigned ever-converter class, independent of eligible anchor and regardless
+    of TTC; no fixed post-anchor risk horizon. TTC only assigned to converters.
+TTC:
+  median: 24
+  log_sd: 0.45
+  lo: 12
+  hi: 60
+nonconverter_followup:
+  median: 36
+  log_sd: 0.35
+  lo: 24
+  hi: 72
+windows:
+- 3-18
+- 6-24
+- 12-30
+cadence_months: 6
+anchor: Eligible scheduled visit nearest window midpoint; shorter on ties; converter
+  anchor <= TTC - 6; exclude no-anchor subjects from BOTH models in that window.
+latent:
+  TTC_severity_loading: 0.65
+  brain_loading: 0.45
+  baseline_severity_loading: 0.55
+  baseline_region_loading: 0.6
+  severity_progression_loading: 0.55
+  progression_loading: 0.65
+noise:
+  measurement_sd: 0.025
+  local_slope_sd: 0.02
+  baseline_measurement_noise: true
+  noise_independence: independent Gaussian multiplicative errors by hemisphere/region/visit;
+    local slope independent by region/hemisphere/visit
+regions:
+  hippocampus:
+    nonconverter_baseline_mean: 3400
+    converter_baseline_mean: 3200
+    baseline_sd: 150
+    nonconverter_magnitude_mean: 0.012
+    converter_magnitude_mean: 0.045
+    nonconverter_rate_sd: 0.004
+    converter_rate_sd: 0.012
+    disease_direction: -1
+    right_mean_multiplier: 1.01
+  entorhinal:
+    nonconverter_baseline_mean: 1500
+    converter_baseline_mean: 1400
+    baseline_sd: 100
+    nonconverter_magnitude_mean: 0.015
+    converter_magnitude_mean: 0.06
+    nonconverter_rate_sd: 0.006
+    converter_rate_sd: 0.015
+    disease_direction: -1
+    right_mean_multiplier: 1.01
+  ventricle:
+    nonconverter_baseline_mean: 24000
+    converter_baseline_mean: 25000
+    baseline_sd: 2000
+    nonconverter_magnitude_mean: 0.01
+    converter_magnitude_mean: 0.055
+    nonconverter_rate_sd: 0.004
+    converter_rate_sd: 0.015
+    disease_direction: 1
+    right_mean_multiplier: 1.02
+seeds:
+- 104729
+- 130363
+- 155921
+- 181081
+- 206369
+- 231701
+- 257053
+- 282407
+- 307759
+- 333019
+- 358373
+- 383681
+- 409033
+- 434389
+- 459739
+- 485093
+- 510407
+- 535777
+- 561097
+- 586451
+evaluation:
+  split: GroupShuffleSplit train_size=0.70 random_state=42; paired identical subjects
+    between models in each window
+  pipeline: constant-0 imputer -> StandardScaler -> L2 LogisticRegression C=1 lbfgs
+    class_weight=balanced max_iter=2000 random_state=42
+  calibration: CalibratedClassifierCV sigmoid cv=3 ensemble=True; no fallback or tuning
+  snapshot_features: three observed left baseline volumes
+  augmented_features: snapshot plus three observed fractional annual changes plus
+    three missing indicators (all 0 after paired eligibility)
+  forbidden_inputs:
+  - label-derived metadata
+  - TTC
+  - latent severity
+  - latent rates
+  - follow-up time
+  - anchor time
+  - brain_size
+  metrics:
+  - ROC AUC
+  - average_precision_score
+  - Brier
+  - paired DeltaAUC
+  - paired DeltaAP
+  - paired DeltaBrier
+  replication: 20 independently seeded cohorts; same subject/visit realizations shared
+    across windows within seed; no p values/bootstraps, no selected seeds, no ANN/XGBoost
+diagnostic_targets:
+  hemisphere: 0 < Pearson r < 0.999 for observed and latent baseline, pooled AND within
+    each outcome group; variable R/L ratio
+  baseline_cross_region: hippocampus-entorhinal positive; hippocampus-ventricle negative,
+    latent and observed, within class and pooled; transparent design signs, not ADNI
+    targets
+  signed_rates: hippocampus-entorhinal positive, hippocampus-ventricle and entorhinal-ventricle
+    negative; magnitude correlations positive, within classes and pooled
+  baseline_progression: latent hippocampal/entorhinal volume vs latent signed change
+    positive (vs atrophy magnitude negative); latent ventricle volume vs latent expansion
+    positive, within classes and pooled
+  TTC: 'among converters: TTC-severity negative; TTC-hippocampal/entorhinal baseline
+    positive, TTC-ventricular baseline negative; TTC-hippocampal/entorhinal signed
+    rate positive and TTC-ventricular signed rate negative'
+  empirical_rates: report separately because baseline measurement error, inverse interval
+    scaling and eligibility can alter observed baseline-change correlation; no required
+    sign; do not retune
+  failure: report any diagnostic or predictive failure; no parameter updates or seed
+    extension
+TTC_rate_adjustment:
+  magnitude_addition_months_le12: 0.005
+  magnitude_addition_months_12to24: 0.0025
+  magnitude_addition_months_gt36: -0.003
+  note: <=12 has probability zero under continuous TTC truncated below 12; signs act
+    on biological magnitude, not add positive to negative signed change.

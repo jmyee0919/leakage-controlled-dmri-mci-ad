@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "eight_configurations_reproduced": true,
+  "maximum_second_implementation_difference": 3.3306690738754696e-16,
+  "inputs": "Schema-matched restricted inputs prepared from the locked full-121 cohort and scan contract; the retained ICV values matched the primary cohort. No participant records are distributed.",
+  "model_or_resampling_changes": false
+}

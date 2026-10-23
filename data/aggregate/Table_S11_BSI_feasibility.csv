@@ -1,0 +1,8 @@
+stage,N,events
+primary,106,35
+subject_has_BSI,106,35
+exact_pair_matched,10,3
+quality_usable,10,3
+hippo_usable,5,0
+vent_usable,8,3
+both_usable,5,0

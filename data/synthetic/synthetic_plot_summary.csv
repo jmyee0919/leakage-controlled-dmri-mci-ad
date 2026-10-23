@@ -1,0 +1,22 @@
+window,metric,mean,sd,source_file,source_csv_data_row,source_fields
+3-18,Snapshot_AUC,0.82422498451220516,0.0069242147897209004,outputs/step2C/05_results/window_summary.csv,1,mean; sd
+6-24,Snapshot_AUC,0.82422498451220516,0.0069242147897209004,outputs/step2C/05_results/window_summary.csv,10,mean; sd
+12-30,Snapshot_AUC,0.79790666325808746,0.0091734623622024992,outputs/step2C/05_results/window_summary.csv,19,mean; sd
+3-18,Snapshot_DeltaMRI_AUC,0.93368302642684997,0.0045955295283959001,outputs/step2C/05_results/window_summary.csv,4,mean; sd
+6-24,Snapshot_DeltaMRI_AUC,0.93368302642684997,0.0045955295283959001,outputs/step2C/05_results/window_summary.csv,13,mean; sd
+12-30,Snapshot_DeltaMRI_AUC,0.95095153392162479,0.0036100779357668999,outputs/step2C/05_results/window_summary.csv,22,mean; sd
+3-18,Snapshot_AP,0.76148970223714729,0.0098426350854619003,outputs/step2C/05_results/window_summary.csv,2,mean; sd
+6-24,Snapshot_AP,0.76148970223714729,0.0098426350854619003,outputs/step2C/05_results/window_summary.csv,11,mean; sd
+12-30,Snapshot_AP,0.67043843706800721,0.017784089119045599,outputs/step2C/05_results/window_summary.csv,20,mean; sd
+3-18,Snapshot_DeltaMRI_AP,0.91612414692885202,0.0060526126535939001,outputs/step2C/05_results/window_summary.csv,5,mean; sd
+6-24,Snapshot_DeltaMRI_AP,0.91612414692885202,0.0060526126535939001,outputs/step2C/05_results/window_summary.csv,14,mean; sd
+12-30,Snapshot_DeltaMRI_AP,0.92443070646795444,0.0053909099803008996,outputs/step2C/05_results/window_summary.csv,23,mean; sd
+3-18,Snapshot_Brier,0.16532194292352781,0.0031997354331117999,outputs/step2C/05_results/window_summary.csv,3,mean; sd
+6-24,Snapshot_Brier,0.16532194292352781,0.0031997354331117999,outputs/step2C/05_results/window_summary.csv,12,mean; sd
+12-30,Snapshot_Brier,0.16789891690186559,0.0035752259066924,outputs/step2C/05_results/window_summary.csv,21,mean; sd
+3-18,Snapshot_DeltaMRI_Brier,0.0976335551988773,0.0034277631994211999,outputs/step2C/05_results/window_summary.csv,6,mean; sd
+6-24,Snapshot_DeltaMRI_Brier,0.0976335551988773,0.0034277631994211999,outputs/step2C/05_results/window_summary.csv,15,mean; sd
+12-30,Snapshot_DeltaMRI_Brier,0.078516344215544598,0.0031699437675819999,outputs/step2C/05_results/window_summary.csv,24,mean; sd
+3-18,DeltaAUC,0.1094580419146448,0.0058222222950436,outputs/step2C/05_results/window_summary.csv,7,mean; sd
+6-24,DeltaAUC,0.1094580419146448,0.0058222222950436,outputs/step2C/05_results/window_summary.csv,16,mean; sd
+12-30,DeltaAUC,0.15304487066353731,0.0072657918198952998,outputs/step2C/05_results/window_summary.csv,25,mean; sd

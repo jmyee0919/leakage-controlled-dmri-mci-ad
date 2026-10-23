@@ -1,0 +1,11 @@
+analysis,delta_auc,z,two_sided_p,status
+primary,0.079365079365079527,1.5504341823651087,0.12103733948230636,secondary paired DeLong; no tuning or threshold selection
+five_covariate,0.084656084656084651,1.6694768542252045,0.095022913712110177,secondary paired DeLong; no tuning or threshold selection
+complete_MMSE,0.058823529411764719,1.3450603254694362,0.17860575414647573,secondary paired DeLong; no tuning or threshold selection
+APOE,0.10052910052910069,1.8685009869155693,0.061692272694972579,secondary paired DeLong; no tuning or threshold selection
+interval_ge6,-0.020408163265306145,-0.18451630823652948,0.85360843467945746,secondary paired DeLong; no tuning or threshold selection
+interval_shared,0.063492063492063489,1.4352999118337149,0.15120165288800844,secondary paired DeLong; no tuning or threshold selection
+second_MRI_snapshot,0.068783068783068835,1.3826657968874314,0.16676736398298397,secondary paired DeLong; no tuning or threshold selection
+availability_flags,0.079365079365079527,1.5504341823651087,0.12103733948230636,secondary paired DeLong; no tuning or threshold selection
+full121_clinical_ICV_QC_missing,0.09259259259259256,1.9929942480565583,0.046262076933479584,secondary paired DeLong; no tuning or threshold selection
+broader_QC,0.10185185185185186,1.4704720861579017,0.14143394035764786,secondary paired DeLong; no tuning or threshold selection

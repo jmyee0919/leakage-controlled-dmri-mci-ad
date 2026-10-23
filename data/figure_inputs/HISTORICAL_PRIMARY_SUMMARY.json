@@ -1,0 +1,15 @@
+{
+  "N": 121,
+  "events": 37,
+  "train_N": 84,
+  "train_events": 27,
+  "holdout_N": 37,
+  "holdout_events": 10,
+  "Snapshot_AUC": 0.7556,
+  "DeltaMRI_AUC": 0.8222,
+  "delta_AUC": 0.0667,
+  "delta_AUC_lower95": -0.0127,
+  "delta_AUC_upper95": 0.1653,
+  "repeated_mean_delta_AUC": 0.0125,
+  "status": "Historical frozen results, not refitted"
+}

@@ -1,0 +1,3 @@
+comparison,maximum_absolute_prediction_difference,basis
+Snapshot plus zero flags versus Snapshot,0,Zero-valued columns leave fixed L2 objective and standardized score unchanged; no new fit
+Snapshot+changes without zero flags versus with flags,0,All106 have observed changes; same fixed objective; no new fit

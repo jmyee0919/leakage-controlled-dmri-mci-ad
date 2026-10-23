@@ -1,0 +1,545 @@
+{
+  "status": "READY FOR VERSION-CONTROLLED LOCK; NO PERFORMANCE INSPECTED",
+  "created_utc": "2026-10-17T06:43:33.621067+00:00",
+  "post_hoc": true,
+  "source_contract": "New source-defined analysis; historical GUI execution/release identity remains unknown and is not fabricated",
+  "source_file": "work/sources/OneDrive_2026-09-27/adni dataset/UCSF Cross sectional FS (7)/UCSFFSX7_24Sep2026.csv",
+  "source_sha256": "e00524a1799175188efcd0131a24f90d59bf819978666116f8819b6f717b8e16",
+  "RDA_file": "work/sources/OneDrive_2026-09-27/adni dataset/ADNIMERGE/package_extracted/ADNIMERGE2/data/UCSFFSX7.rda",
+  "RDA_sha256": "afc73d929d9017721b9b758cc3036287aaa7ad8416cd83128bbdde960d16bb5b",
+  "QC": {
+    "A_abs_ICV_fractional_difference_gt": 0.05,
+    "B_abs_robust_z_gt": 4,
+    "robust_multiplier": 0.67448975,
+    "reference": "all 1474 selected source-compatible pairs including five original relevant QC failures; compare reference without five descriptively, never choose after performance",
+    "MAD": "unscaled median absolute deviation",
+    "boundaries": "strict >; equality retained; nonpositive/nonfinite volumes or zero MAD stop rather than impute/reselect",
+    "duplicates": "unique participant/date and exact six exported ROI match, 1e-6 absolute tolerance; both tables reconcile image IDs/ICV; no replacement scans",
+    "threshold_timing": "Author-proposed after earlier results; locked before these new fits. No historical prospective prespecification."
+  },
+  "reference_distributions": [
+    {
+      "reference": "all_1474",
+      "region": "hippo",
+      "N": 1474,
+      "median": -0.03467461962899987,
+      "unscaled_MAD": 0.020262180231693076,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 46
+    },
+    {
+      "reference": "without_5_documented_failures",
+      "region": "hippo",
+      "N": 1469,
+      "median": -0.034647350987817065,
+      "unscaled_MAD": 0.020250441664931097,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 47
+    },
+    {
+      "reference": "all_1474",
+      "region": "entorh",
+      "N": 1474,
+      "median": -0.02803319303623355,
+      "unscaled_MAD": 0.08562714072291897,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 18
+    },
+    {
+      "reference": "without_5_documented_failures",
+      "region": "entorh",
+      "N": 1469,
+      "median": -0.028044462706999458,
+      "unscaled_MAD": 0.08565497071940438,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 18
+    },
+    {
+      "reference": "all_1474",
+      "region": "vent",
+      "N": 1474,
+      "median": 0.04828734234197869,
+      "unscaled_MAD": 0.024910727127165806,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 20
+    },
+    {
+      "reference": "without_5_documented_failures",
+      "region": "vent",
+      "N": 1469,
+      "median": 0.04815702467243363,
+      "unscaled_MAD": 0.02486197311478471,
+      "MAD_multiplier": 0.67448975,
+      "threshold": 4,
+      "flagged_N": 20
+    }
+  ],
+  "analyses": {
+    "primary": {
+      "arms": {
+        "Snapshot": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "f504a0e315a1d02a864d965baad6db8bd7efe10f8a74fc94a8ee42763a6f4512"
+    },
+    "five_covariate": {
+      "arms": {
+        "Snapshot": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [
+        "age",
+        "female",
+        "education",
+        "MMSE",
+        "ICV"
+      ],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "f504a0e315a1d02a864d965baad6db8bd7efe10f8a74fc94a8ee42763a6f4512"
+    },
+    "complete_MMSE": {
+      "arms": {
+        "Snapshot": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [
+        "age",
+        "female",
+        "education",
+        "MMSE",
+        "ICV"
+      ],
+      "N": 97,
+      "events": 31,
+      "train_N": 72,
+      "train_events": 23,
+      "test_N": 25,
+      "test_events": 8,
+      "fit_allowed": true,
+      "cohort_sha256": "c72cf4bc41d0ce8b5b7b7b26e7af9d4861305333d2efe3324ee98a101c13b8f2"
+    },
+    "APOE": {
+      "arms": {
+        "Snapshot": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "APOE4_all_reliable",
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "APOE4_all_reliable",
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [
+        "age",
+        "female",
+        "education",
+        "MMSE",
+        "ICV",
+        "APOE4_all_reliable"
+      ],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "2987c9e9df2768a524dc224d07fa9a64cf3c56d74b9a5981142198531c465b41"
+    },
+    "interval_ge6": {
+      "arms": {
+        "Snapshot": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 72,
+      "events": 24,
+      "train_N": 51,
+      "train_events": 17,
+      "test_N": 21,
+      "test_events": 7,
+      "fit_allowed": true,
+      "cohort_sha256": "3e209fd159fb68d20c2b9748103f5c859dcd025ebd3d6c7eff861c02b7dab98e"
+    },
+    "interval_shared": {
+      "arms": {
+        "Snapshot": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "interval_months"
+        ],
+        "Snapshot+DeltaMRI": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "interval_months",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "f504a0e315a1d02a864d965baad6db8bd7efe10f8a74fc94a8ee42763a6f4512"
+    },
+    "second_MRI_snapshot": {
+      "arms": {
+        "Snapshot": [
+          "hippo_follow",
+          "entorh_follow",
+          "vent_follow"
+        ],
+        "Snapshot+DeltaMRI": [
+          "hippo_follow",
+          "entorh_follow",
+          "vent_follow",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "f504a0e315a1d02a864d965baad6db8bd7efe10f8a74fc94a8ee42763a6f4512"
+    },
+    "availability_flags": {
+      "arms": {
+        "Snapshot+flags": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ],
+        "Snapshot+DeltaMRI+flags": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 106,
+      "events": 35,
+      "train_N": 76,
+      "train_events": 26,
+      "test_N": 30,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "f504a0e315a1d02a864d965baad6db8bd7efe10f8a74fc94a8ee42763a6f4512"
+    },
+    "full121_clinical_ICV_QC_missing": {
+      "arms": {
+        "Snapshot": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "age",
+          "female",
+          "education",
+          "MMSE",
+          "ICV",
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [
+        "age",
+        "female",
+        "education",
+        "MMSE",
+        "ICV"
+      ],
+      "N": 121,
+      "events": 37,
+      "train_N": 84,
+      "train_events": 27,
+      "test_N": 37,
+      "test_events": 10,
+      "fit_allowed": true,
+      "cohort_sha256": "87e47f09407255db31d2c6e9afc9c35fdd8bb0f58e2da961491295bf10a3cf25"
+    },
+    "interval_ge9": {
+      "N": 48,
+      "events": 6,
+      "train_N": 34,
+      "train_events": 4,
+      "test_N": 14,
+      "test_events": 2,
+      "fit_allowed": false,
+      "status": "NO_FIT_PREDECLARED_SUPPORT; no alternative split"
+    },
+    "interval_ge12": {
+      "N": 18,
+      "events": 3,
+      "train_N": 11,
+      "train_events": 1,
+      "test_N": 7,
+      "test_events": 2,
+      "fit_allowed": false,
+      "status": "NO_FIT_PREDECLARED_SUPPORT; no alternative split"
+    },
+    "broader_QC": {
+      "arms": {
+        "Snapshot": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base"
+        ],
+        "Snapshot+DeltaMRI": [
+          "hippo_base",
+          "entorh_base",
+          "vent_base",
+          "hippo_relchange_emp",
+          "entorh_relchange_emp",
+          "vent_relchange_emp",
+          "hippo_relchange_emp_isna",
+          "entorh_relchange_emp_isna",
+          "vent_relchange_emp_isna"
+        ]
+      },
+      "clinical": [],
+      "N": 106,
+      "events": 28,
+      "train_N": 73,
+      "train_events": 19,
+      "test_N": 33,
+      "test_events": 9,
+      "fit_allowed": true,
+      "cohort_sha256": "5d607d067a6420bcd4254ad2f83dc13132f469f42aed4c89ecce7a946e73284c",
+      "design": "Previously archived broader126 sensitivity population, clinically revalidated; no automatic primary expansion. Original broader sensitivity_split inherited, not the primary split. Original scans may differ from primary and thus this population is not nested."
+    }
+  },
+  "support_criteria": {
+    "fitting_events": 10,
+    "fitting_non_events": 10,
+    "calibration_events": 5,
+    "calibration_non_events": 5,
+    "test_events": 5,
+    "test_non_events": 5
+  },
+  "class_support_note": "Operational safeguards, not sufficient sample-size or overfitting assurance",
+  "classifier": {
+    "C": 1.0,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "preprocessing": "Primary MRI constant-zero imputation then StandardScaler. Clinical: within-estimator-fitting-fold median for all clinical variables; MRI constant zero; then StandardScaler; no holdout/calibration data used",
+  "calibration": {
+    "method": "sigmoid",
+    "ensemble": true,
+    "cv": 3,
+    "folds": "StratifiedKFold(3,shuffle=False) on inherited ordered surviving training set; identical paired arms"
+  },
+  "evaluation": {
+    "bootstrap": 500,
+    "seed": 42,
+    "sampling": "paired participant occurrences with replacement; fixed fitted predictions; conditional percentile intervals; invalid draws retained and counted",
+    "DeLong": "secondary paired assessment, identical archived implementation",
+    "joint_calibration": "unpenalized y~intercept+slope*logit(p), assess only with clip1e-8; do not alter predictive calibration",
+    "repeated": "3-fold x10 RepeatedStratifiedKFold seed42; nested 3-fold sigmoid calibration and training-only transforms; no split search"
+  },
+  "full121_sensitivity": "Historical imaging results preserved without refitting. New five-covariate clinical pair masks baseline ICV only for Rule A participants, learns medians in each fitting fold; no extra indicators; retains potentially unreliable regional measurements",
+  "APOE": "all QC-reliable normalized unanimous germline genotype records by verified RID; later or undated collection permitted with dates reported; conflicts/unavailable excluded, no genotype imputation",
+  "source_and_clinical_checks_passed": 49159,
+  "performance_inspected": false,
+  "BSI": {
+    "model_fit_allowed": false,
+    "reason": "Insufficient exact selected-pair regional event/class support; original BSI signed polarity and unilateral ventricular construct equivalence remain unverified",
+    "source_table_sha256": "f297c19d205340c29ba3798c7868333b867ef79c81eb9b17dcb7e9edc392897f",
+    "counts": [
+      {
+        "stage": "primary",
+        "N": 106,
+        "events": 35
+      },
+      {
+        "stage": "subject_has_BSI",
+        "N": 106,
+        "events": 35
+      },
+      {
+        "stage": "exact_pair_matched",
+        "N": 10,
+        "events": 3
+      },
+      {
+        "stage": "quality_usable",
+        "N": 10,
+        "events": 3
+      },
+      {
+        "stage": "hippo_usable",
+        "N": 5,
+        "events": 0
+      },
+      {
+        "stage": "vent_usable",
+        "N": 8,
+        "events": 3
+      },
+      {
+        "stage": "both_usable",
+        "N": 5,
+        "events": 0
+      }
+    ]
+  }
+}

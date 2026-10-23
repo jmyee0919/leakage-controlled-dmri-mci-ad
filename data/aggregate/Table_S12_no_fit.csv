@@ -1,0 +1,3 @@
+analysis,N,events,train_N,train_events,test_N,test_events,status
+interval_ge9,48,6,34,4,14,2,NO_FIT_PREDECLARED_SUPPORT
+interval_ge12,18,3,11,1,7,2,NO_FIT_PREDECLARED_SUPPORT
