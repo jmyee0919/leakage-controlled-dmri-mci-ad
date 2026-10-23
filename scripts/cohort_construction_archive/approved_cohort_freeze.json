@@ -1,0 +1,60 @@
+{
+  "freeze_utc": "2026-10-05T10:33:40.940230+00:00",
+  "status": "COHORT FLOW AND SPLIT FROZEN BEFORE CORRECTED MODEL FITTING",
+  "specification_sha256": "c33b7c0d1cf7d1fcc0f95f19c0b4034e11d72cb75e78aabfa204a8ea3ecb2dc7",
+  "selected_pair_N": 1474,
+  "riskset_N": 205,
+  "unclassified_riskset_N": 84,
+  "analytic_N": 121,
+  "summary": [
+    {
+      "population": "total",
+      "N": 121,
+      "events": 37,
+      "non_events": 84,
+      "intervening_CN": 1,
+      "evidentiary_status": "exploratory"
+    },
+    {
+      "population": "train",
+      "N": 84,
+      "events": 27,
+      "non_events": 57,
+      "intervening_CN": 1,
+      "evidentiary_status": "exploratory"
+    },
+    {
+      "population": "test",
+      "N": 37,
+      "events": 10,
+      "non_events": 27,
+      "intervening_CN": 0,
+      "evidentiary_status": "exploratory"
+    }
+  ],
+  "raw_DXSUM_N": 16234,
+  "explicit_DXSUM_QC_error_rows_excluded": 1,
+  "conflicting_diagnosis_dates_N": 2,
+  "selected_pairs_prior_dementia_N": 427,
+  "selected_pairs_baseline_no_current_MCI_N": 1044,
+  "selected_pairs_information_no_current_MCI_N": 1148,
+  "riskset_intervening_CN_N": 1,
+  "analytic_intervening_CN_N": 1,
+  "baseline_future_same_visit_rows_ignored": 637,
+  "information_future_same_visit_rows_ignored": 861,
+  "baseline_MRI_visit_ambiguous_N": 0,
+  "information_MRI_visit_ambiguous_N": 0,
+  "selected_pairs_QC_failure_N": 5,
+  "sources": {
+    "work\\sources\\CSBJ_revision\\adni synthetic paper\\adnipocfinal\\csv\\filtered_snapshot.csv": "c009e7bc528e761a837e8be32cddac6d254a8cccd24b1d1cf1ac9f8f8c1cc3b4",
+    "work\\sources\\CSBJ_revision\\adni synthetic paper\\adnipocfinal\\csv\\filtered_mridelta.csv": "b16e68333a2a6489336a683da1c6b1ad23f1d071a3a108ec1d986d4c56c2c2a7",
+    "work\\sources\\OneDrive_2026-09-27\\adni dataset\\UCSF Cross sectional FS (7)\\UCSFFSX7_24Sep2026.csv": "e00524a1799175188efcd0131a24f90d59bf819978666116f8819b6f717b8e16",
+    "work\\sources\\OneDrive_2026-09-27\\adni dataset\\ADNIMERGE\\package_extracted\\ADNIMERGE2\\data\\DXSUM.rda": "9f754348ab0a4ca152c75c5696dcedef4568cb2662865e1835862c499fd3766f",
+    "work\\sources\\OneDrive_2026-09-27\\adni dataset\\ADNIMERGE\\package_extracted\\ADNIMERGE2\\data\\ADVERSE.rda": "e7fab104c320e52350031298919f2c663c843eea430c41371b173bb6acfc8ff6",
+    "work\\sources\\OneDrive_2026-09-27\\adni dataset\\ADNIMERGE\\package_extracted\\ADNIMERGE2\\data\\RECADV.rda": "1a3f76823ba6ebbeab7f71a2f6156447e786eefc97a0b6d4457f82e90f984115",
+    "work\\sources\\OneDrive_2026-09-27\\adni dataset\\ADNIMERGE\\package_extracted\\ADNIMERGE2\\data\\STUDYSUM.rda": "002b628e26a08cb3fc56e673a2adaaea992c08f03ef8199c14840ec879806040"
+  },
+  "corrected_models_fitted": 0,
+  "private_cohort_sha256": "4ea8262bc126b541bacad835725e5b924063d49962d68e56f550e578a480c13a",
+  "cohort_flow_sha256": "2a6626fdeabf003abefebe0fc805b7bc09a4162ffbd8708d73dc2e14abcaab17"
+}

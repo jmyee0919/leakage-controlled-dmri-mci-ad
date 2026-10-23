@@ -1,19 +1,23 @@
 cff-version: 1.2.0
 message: "Please cite the associated manuscript and the exact code commit used."
 type: software
-title: "Short-interval MRI volume change and 24-month Alzheimer's disease progression in a selected MCI cohort: an exploratory landmark analysis"
+title: "Short-Interval MRI Volume Change and 24-Month Progression From MCI to Alzheimer's Disease: analysis code"
 authors:
   - family-names: Hyun
     given-names: Jaeyeol
+    orcid: "https://orcid.org/0009-0009-9988-702X"
   - family-names: Hyun
     given-names: Jaemyung
+    orcid: "https://orcid.org/0009-0003-3235-0953"
   - family-names: Jun
     given-names: Saehyun
   - family-names: Ducza
     given-names: Laszlo
+    orcid: "https://orcid.org/0000-0002-2753-5748"
   - family-names: Gaal
     given-names: Botond A
-version: 2.0.0
+    orcid: "https://orcid.org/0009-0004-3925-2261"
+version: 2.0.1
 date-released: 2026-10-23
 repository-code: "https://github.com/jmyee0919/leakage-controlled-dmri-mci-ad"
 license: MIT

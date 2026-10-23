@@ -1,12 +1,12 @@
 # Short interval MRI change and Alzheimer disease progression
 
-Code and aggregate results for **Short-interval MRI volume change and 24-month Alzheimer's disease progression in a selected MCI cohort: an exploratory landmark analysis**.
+Code and aggregate results for **Short-Interval MRI Volume Change and 24-Month Progression From MCI to Alzheimer's Disease** (revised manuscript submitted to *Computational and Structural Biotechnology Journal*).
 
 The revised study compares baseline regional MRI with baseline MRI plus annualized change at a common second-MRI landmark. The primary analysis includes 106 participants and 35 recorded AD events; its internal holdout includes 30 participants and 9 events. The primary paired AUC difference is +0.0794 (95% bootstrap interval −0.0132 to +0.2162). This is an exploratory evaluation with substantial uncertainty, rather than a validated clinical tool.
 
 ## Revision snapshot
 
-Version **2.0.0**, 23 October 2026. The repository URL retains its original name to preserve existing citations. That historical name is not a claim that the revised design eliminates all leakage or selection bias. The original submission is retained in Git history at [ce31eac](https://github.com/jmyee0919/leakage-controlled-dmri-mci-ad/tree/ce31eac014e862d2efb70be5dcb89df4d409fc36); its code and results must not be mixed with this revision.
+Version **2.0.1**, 23 October 2026 (v2.0.0 plus the final submission files listed below). The repository URL retains its original name to preserve existing citations. That historical name is not a claim that the revised design eliminates all leakage or selection bias. The original submission is retained in Git history at [ce31eac](https://github.com/jmyee0919/leakage-controlled-dmri-mci-ad/tree/ce31eac014e862d2efb70be5dcb89df4d409fc36); its code and results must not be mixed with this revision.
 
 ## Contents
 
@@ -23,6 +23,16 @@ Version **2.0.0**, 23 October 2026. The repository URL retains its original name
 | `docs/` | Data access, execution scope and availability statements |
 
 No ADNI participant-level data, source diagnosis rows, MRI files, individual predictions, manuscript drafts or response letters are distributed here. Curve-coordinate CSVs contain plotted coordinates without thresholds, identifiers or individual prediction vectors.
+
+
+## Final submission files (v2.0.1)
+
+| Folder | Purpose |
+| --- | --- |
+| `final_submission/` | Data file S1 and Figures 1–3 and S1–S3 exactly as submitted, with the table and figure numbering used in the final manuscript (see `final_submission/README.md` for the correspondence with the file names in `data/aggregate/`) |
+| `scripts/revision_checks/` | Historical-filter status of the broader cohort (final Table S19) and visit-level check of AD diagnoses recorded shortly after the index MRI (restricted inputs required) |
+| `scripts/final_figures/` | Code for the final Figures 1–3 and S1–S3 (restricted saved predictions required) |
+| `scripts/cohort_construction_archive/` | Archived provenance copies of the original filter application (volume ranges, pair direction constraints, 3–18-month window) and of the script that built and froze the 121-participant classified cohort. File paths refer to the original working directory |
 
 ## Install
 

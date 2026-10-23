@@ -1,0 +1,7 @@
+population,partition,N,A,B,both,union,remaining,reference_sensitivity_B_disagreements
+all_selected,all,1474,120,73,9,184,1290,1
+all_selected,train,84,6,2,0,8,76,0
+all_selected,test,37,5,2,0,7,30,0
+historical_primary,all,121,11,4,0,15,106,0
+historical_primary,train,84,6,2,0,8,76,0
+historical_primary,test,37,5,2,0,7,30,0

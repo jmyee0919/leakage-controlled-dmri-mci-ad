@@ -1,0 +1,35 @@
+variable,group,category,count,denominator
+female,All,0.0,62,106
+female,All,1.0,44,106
+APOE4_all_reliable,All,0,55,106
+APOE4_all_reliable,All,1,37,106
+APOE4_all_reliable,All,2,14,106
+MCI_feature_category,All,memory features only,94,106
+MCI_feature_category,All,both memory and non-memory features,11,106
+MCI_feature_category,All,non-memory features only,1,106
+split,All,train,76,106
+split,All,test,30,106
+intervening_CN,All,False,105,106
+intervening_CN,All,True,1,106
+female,AD events,0.0,18,35
+female,AD events,1.0,17,35
+APOE4_all_reliable,AD events,0,14,35
+APOE4_all_reliable,AD events,1,14,35
+APOE4_all_reliable,AD events,2,7,35
+MCI_feature_category,AD events,memory features only,28,35
+MCI_feature_category,AD events,both memory and non-memory features,7,35
+split,AD events,train,26,35
+split,AD events,test,9,35
+intervening_CN,AD events,False,35,35
+female,Confirmed non-events,0.0,44,71
+female,Confirmed non-events,1.0,27,71
+APOE4_all_reliable,Confirmed non-events,0,41,71
+APOE4_all_reliable,Confirmed non-events,1,23,71
+APOE4_all_reliable,Confirmed non-events,2,7,71
+MCI_feature_category,Confirmed non-events,memory features only,66,71
+MCI_feature_category,Confirmed non-events,both memory and non-memory features,4,71
+MCI_feature_category,Confirmed non-events,non-memory features only,1,71
+split,Confirmed non-events,train,50,71
+split,Confirmed non-events,test,21,71
+intervening_CN,Confirmed non-events,False,70,71
+intervening_CN,Confirmed non-events,True,1,71

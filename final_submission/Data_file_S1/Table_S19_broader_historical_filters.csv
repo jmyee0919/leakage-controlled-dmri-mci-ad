@@ -1,0 +1,11 @@
+stage,N,AD_events
+Broader classified cohort before QC,126,33
+Excluded by Rule A (ICV),14,3
+Excluded by Rule B (robust z),6,2
+Broader cohort after QC,106,28
+After QC: holdout partition,33,9
+After QC: pair would fail the direction filter,45,7
+After QC: hippocampal volume increase,40,6
+After QC: ventricular volume decrease,13,1
+After QC: would fail the volume-range filter,10,2
+After QC: fails either historical filter,49,9

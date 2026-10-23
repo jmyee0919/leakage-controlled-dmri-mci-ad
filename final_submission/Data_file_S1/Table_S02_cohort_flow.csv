@@ -1,0 +1,17 @@
+stage,rows_or_participants,AD_events,count_type,reason
+Raw snapshot source rows,12151,,source_rows,Source rows; not sequential participant exclusions
+Filtered snapshot source rows,10279,,source_rows,Historical bounds filter
+Raw longitudinal source rows,6213,,source_rows,Source pair rows
+Filtered longitudinal source rows,3281,,source_rows,Historical sign/subject filters
+Window and snapshot join pair rows,3141,,source_rows,3-18 months; 1474 unique participants
+One selected pair per participant,1474,,participants,Nearest10.5; no clinical outcome selection
+Source-recoverable regional/ICV pairs,1474,,participants,All selected endpoints exact match
+After original documented relevant QC failures,1469,,participants,5 failures; not all-Pass selection
+No known dementia at/before second MRI,1045,,participants,424 excluded
+No known dated death at/before second MRI,1039,,participants,6 excluded
+Current baseline MCI,387,,participants,652 excluded
+Current second-MRI MCI,205,,participants,182 excluded
+Outcome unclassified,84,,participants,79 insufficient follow-up;3 death;2 other/conflict; not negatives
+Historically classified,121,37,participants,205 minus84; original split84/37
+New QC union exclusions within121,15,2,participants,RuleA11;RuleB4;overlap0
+New source-defined primary,106,35,participants,Training76/26;holdout30/9
