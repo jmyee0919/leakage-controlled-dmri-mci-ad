@@ -6,7 +6,7 @@ redistributed. Archived publication PDFs preserve the exact submitted styling.
 Older supplementary calibration/clinical/synthetic plots remain reproducible
 with scripts/render_figures.py and public aggregate inputs (see README).
 """
-import argparse
+import argparse,json
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -29,6 +29,7 @@ def main():
     plt.rcParams.update({'font.family':'serif','font.serif':['Liberation Serif','DejaVu Serif'],
       'font.size':9,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42})
     h=pd.read_csv(DATA/'Table_2_3_four_model_holdout.csv')
+    h['comparison']=h.comparison.str.replace(' minus ','-',regex=False)
     r=pd.read_csv(DATA/'Table_S11_four_model_each_repeat.csv');r=r[r.analysis.eq('imaging')]
     fig=plt.figure(figsize=(10,12),layout='constrained');gs=fig.add_gridspec(3,3,height_ratios=[1,1,1])
     axs=[fig.add_subplot(gs[0,i]) for i in range(3)]
@@ -54,6 +55,14 @@ def main():
         if len(q):rows.append((label,q.iloc[0].estimate,q.iloc[0].lower95,q.iloc[0].upper95))
     q=h[h.analysis.eq('imaging')&h.comparison.eq('M4-M3')&h.metric.eq('delta_roc_auc')].iloc[0]
     rows.insert(1,('Updated anatomy M4 − M3',q.estimate,q.lower95,q.upper95))
+    added=pd.read_csv(DATA/'Table_S10_sensitivity_added_in_revision.csv')
+    for position,name,label in [(5,'Excluding AD <=30 days','Excluding AD ≤30 days'),(6,'Field strength added','Field strength added')]:
+        q=added[added.analysis.eq(name)].iloc[0]
+        rows.insert(position,(label,q.dAUC,q.dAUC_lower95,q.dAUC_upper95))
+    historic=json.loads((DATA/'HISTORICAL_PRIMARY_SUMMARY.json').read_text())
+    rows.append(('Original 121, imaging',historic['delta_AUC'],historic['delta_AUC_lower95'],historic['delta_AUC_upper95']))
+    if len(rows)!=12:raise AssertionError('All 12 submitted forest rows must be present')
+    pd.DataFrame(rows,columns=['label','estimate','lower95','upper95']).to_csv(a.out/'Figure_3_forest_check.csv',index=False)
     for y,(label,e,lo,hi) in enumerate(rows):
         ax.errorbar(e,y,xerr=[[e-lo],[hi-e]],fmt='o',color='black',capsize=2)
         ax.text(.32,y,f'{e:+.3f} ({lo:+.3f} to {hi:+.3f})',va='center',fontsize=8)

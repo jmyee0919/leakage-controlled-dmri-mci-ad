@@ -999,8 +999,8 @@
     },
     {
       "path": "second_revision/code/render_second_revision.py",
-      "bytes": 5535,
-      "sha256": "3ae768dd20ed4349004119fa3d6f1e7f53f928e4fb642c395a8f648b9b952bb5"
+      "bytes": 6368,
+      "sha256": "a91561e450bfb099680d066004be17ef31c8ba9c487478fca3263ef5911a3126"
     },
     {
       "path": "second_revision/code/reproduce_revision2.py",
@@ -1101,6 +1101,11 @@
       "path": "second_revision/requirements.txt",
       "bytes": 255,
       "sha256": "93af24ea3b54eed8b3dc5738a395ba78db62a1c7b9acbea86dee44f255c42d15"
+    },
+    {
+      "path": "second_revision/verification/FIGURE_REPRODUCTION_REPORT.json",
+      "bytes": 424,
+      "sha256": "880816bf259d946dfb68d87fcb16ef3d5b4a359535027b401fac62b5d3c63b78"
     },
     {
       "path": "second_revision/verification/REPRODUCTION_REPORT.json",

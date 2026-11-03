@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "new_analytical_figures": [
+    "Figure_3",
+    "Figure_S1"
+  ],
+  "Figure_3_forest_rows": 12,
+  "Figure_3_ROC_models": 4,
+  "Figure_3_CV_contrasts": 3,
+  "Figure_S1_participants": 106,
+  "scope": "Analytical plots regenerated; archived publication PDFs retain exact submitted styling. Figure S1 uses authorized frozen primary inputs. Legacy public aggregate renderer also completed successfully."
+}
