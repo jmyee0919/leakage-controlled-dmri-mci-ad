@@ -11,7 +11,7 @@ def main():
             for s in line['spans']:
                 if 'Rule A,' in s['text'] or 'Rule B,' in s['text']:spans.append(s)
     if len(spans)!=2:raise ValueError('Expected two archived threshold labels')
-    for s in spans:p.add_redact_annot(fitz.Rect(s['bbox']),fill=(1,1,1))
+    for s in spans:p.add_redact_annot(fitz.Rect(s['bbox']),fill=(253/255,233/255,223/255))
     p.apply_redactions(images=0,graphics=0)
     for s in spans:
         text='   Rule A, absolute ICV change > 5% (n = 11)' if 'Rule A' in s['text'] else '   Rule B, |regional robust z| > 4 (n = 4)'

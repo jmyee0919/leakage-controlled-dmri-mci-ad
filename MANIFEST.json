@@ -1014,8 +1014,8 @@
     },
     {
       "path": "second_revision/code/update_figure2.py",
-      "bytes": 1361,
-      "sha256": "7c4e15817008af6d08647bf26ca1ddcb982e0a409a61a67369185fb25ecc06c0"
+      "bytes": 1379,
+      "sha256": "feaf726ca4a5523555cf65067b9a62a2710d7095a952830875216f1a729f8b30"
     },
     {
       "path": "second_revision/code/verify_revision2.py",
@@ -1059,8 +1059,8 @@
     },
     {
       "path": "second_revision/figures/Figure_2.pdf",
-      "bytes": 34264,
-      "sha256": "65cd79f50e255f4a82dc3cc40e2bbe28f03bb6665794f9c5542f4a975b8f702c"
+      "bytes": 34278,
+      "sha256": "2a9e118824deb4d891dd0d04fa4c543ec5be7ee97b0a7100a39b4e43f2cef292"
     },
     {
       "path": "second_revision/figures/Figure_3.pdf",
