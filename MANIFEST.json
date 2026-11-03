@@ -989,8 +989,8 @@
     },
     {
       "path": "second_revision/README.md",
-      "bytes": 4242,
-      "sha256": "30461922602707535bc45fd0708bf649a1be96448c1847a5251121dafe35cd5f"
+      "bytes": 4409,
+      "sha256": "6a63b2fecfd20d7a1513bc7f4f41e95f2927f9567ebacfbed3c09cc3cbf4fe69"
     },
     {
       "path": "second_revision/code/partition_characteristics.py",
@@ -1013,6 +1013,11 @@
       "sha256": "323f06d9feb5cd824c341dca8ff1a4890c5379a0ba609a3ec97fb362433c8ab5"
     },
     {
+      "path": "second_revision/code/update_figure2.py",
+      "bytes": 1306,
+      "sha256": "60bb6ab22927a9b187299b16c8a0d2d819d36e87f5b2cce970ffd0475d5ac612"
+    },
+    {
       "path": "second_revision/code/verify_revision2.py",
       "bytes": 2119,
       "sha256": "de5c8abd9aca996a47ae34c6a878505f0ff7ae7bcecac4f4c0f5a435ffead798"
@@ -1021,6 +1026,11 @@
       "path": "second_revision/figure_source/Figure_1_before_label_clarification.pdf",
       "bytes": 36280,
       "sha256": "9d2fcca09cb5ff634c2979248db904254daf032d6924f4c8f5898342e9ecd8d2"
+    },
+    {
+      "path": "second_revision/figure_source/Figure_2_before_threshold_clarification.pdf",
+      "bytes": 34819,
+      "sha256": "4bb0f232ad82b9e81e8819e19ecfb21f169b7090ea30471b923dbc4ec10ec18b"
     },
     {
       "path": "second_revision/figure_source/M1_ROC.csv",
@@ -1049,8 +1059,8 @@
     },
     {
       "path": "second_revision/figures/Figure_2.pdf",
-      "bytes": 34819,
-      "sha256": "4bb0f232ad82b9e81e8819e19ecfb21f169b7090ea30471b923dbc4ec10ec18b"
+      "bytes": 34264,
+      "sha256": "65cd79f50e255f4a82dc3cc40e2bbe28f03bb6665794f9c5542f4a975b8f702c"
     },
     {
       "path": "second_revision/figures/Figure_3.pdf",

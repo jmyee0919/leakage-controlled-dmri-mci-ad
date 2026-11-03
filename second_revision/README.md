@@ -10,6 +10,7 @@
 - `code/partition_characteristics.py`: Table S28B from the frozen primary cohort, with no fitting or change to the partition.
 - `code/render_second_revision.py`: analytical recreation of Figure 3 and (with restricted primary input) Figure S1. The recreation preserves data and interpretation; the archived submitted PDFs preserve the exact publication layout.
 - `code/update_figure1.py` and `figure_source/Figure_1_before_label_clarification.pdf`: deterministic vector-label clarification to last-known recorded MCI, retaining the rest of the original diagram.
+- `code/update_figure2.py` and its archived source PDF clarify that both plausibility thresholds use absolute values; exclusions and participant counts are unchanged.
 - `figures/`: all seven final publication PDFs. Existing supplementary calibration, clinical ROC/PR and synthetic plots can also be recreated with `scripts/render_figures.py`; their second-revision numbering is S2, S3 and S4 respectively.
 
 ## Authorized input contract
