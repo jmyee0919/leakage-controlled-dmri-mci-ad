@@ -1,0 +1,8 @@
+variable,category,participants
+status,AVAILABLE_UNANIMOUS,106
+APOE4_dosage,0,55
+APOE4_dosage,1,37
+APOE4_dosage,2,14
+later_than_baseline_records,0,106
+undated_records,1,69
+undated_records,0,37

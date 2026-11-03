@@ -1,0 +1,36 @@
+analysis,comparison,metric,estimate,lower95,upper95,test_N,test_events,valid_draws
+broader,M1,roc_auc,0.814815,0.636107,0.949291,33,9,500
+broader,M1,average_precision,0.594509,0.301633,0.890056,33,9,500
+broader,M1,brier,0.161436,0.111732,0.222477,33,9,500
+broader,M1,calibration_intercept,0.372111,-0.993129,2.571414,33,9,499
+broader,M1,calibration_slope,1.806663,0.634074,4.253269,33,9,499
+broader,M2,roc_auc,0.916667,0.814286,0.990685,33,9,500
+broader,M2,average_precision,0.791833,0.554011,0.981818,33,9,500
+broader,M2,brier,0.123364,0.073644,0.181145,33,9,500
+broader,M2,calibration_intercept,0.996014,-0.642412,7.859722,33,9,492
+broader,M2,calibration_slope,2.158825,1.104324,8.271032,33,9,492
+broader,M3,roc_auc,0.856481,0.698846,0.966990,33,9,500
+broader,M3,average_precision,0.650036,0.339976,0.927790,33,9,500
+broader,M3,brier,0.142744,0.092698,0.202021,33,9,500
+broader,M3,calibration_intercept,0.180851,-1.207022,2.674381,33,9,500
+broader,M3,calibration_slope,1.659310,0.808109,4.810162,33,9,500
+broader,M4,roc_auc,0.912037,0.793866,1.000000,33,9,500
+broader,M4,average_precision,0.801257,0.548522,1.000000,33,9,500
+broader,M4,brier,0.128036,0.077341,0.184358,33,9,500
+broader,M4,calibration_intercept,1.022797,-0.613372,5.916092,33,9,484
+broader,M4,calibration_slope,2.174171,1.072351,6.765052,33,9,484
+broader,M2 minus M1,delta_roc_auc,0.101852,-0.022939,0.251398,33,9,500
+broader,M2 minus M1,delta_average_precision,0.197324,-0.077689,0.442324,33,9,500
+broader,M2 minus M1,delta_brier,-0.038072,-0.071895,0.000039,33,9,500
+broader,M2 minus M1,delta_calibration_intercept,0.623903,-0.984990,6.458943,33,9,491
+broader,M2 minus M1,delta_calibration_slope,0.352163,-1.714906,6.334931,33,9,491
+broader,M3 minus M1,delta_roc_auc,0.041667,-0.005851,0.106984,33,9,500
+broader,M3 minus M1,delta_average_precision,0.055527,-0.028607,0.160104,33,9,500
+broader,M3 minus M1,delta_brier,-0.018692,-0.035101,-0.001871,33,9,500
+broader,M3 minus M1,delta_calibration_intercept,-0.191260,-0.883757,0.426826,33,9,499
+broader,M3 minus M1,delta_calibration_slope,-0.147352,-0.942575,0.571147,33,9,499
+broader,M4 minus M3,delta_roc_auc,0.055556,-0.058874,0.193007,33,9,500
+broader,M4 minus M3,delta_average_precision,0.151221,-0.101768,0.394369,33,9,500
+broader,M4 minus M3,delta_brier,-0.014709,-0.052910,0.024121,33,9,500
+broader,M4 minus M3,delta_calibration_intercept,0.841946,-0.405261,4.703783,33,9,484
+broader,M4 minus M3,delta_calibration_slope,0.514861,-1.158513,4.811468,33,9,484

@@ -1,0 +1,13 @@
+,value
+broader_N,106
+broader_events,28
+participants_also_in_primary,69
+events_among_overlap_broader_label,19
+overlap_same_scan_pair,57
+overlap_same_outcome,69
+broader_only,37
+primary_only,37
+overlap_in_broader_holdout,25
+overlap_in_primary_holdout,20
+fail_direction_filter,45
+fail_direction_filter_events,7

@@ -1,0 +1,27 @@
+Characteristic,Classified (N = 121),Primary cohort after plausibility rules (N = 106),Unclassified (N = 84),"SMD, classified vs unclassified"
+"Age, years",76.0 (71.3–80.7),75.9 (70.8–80.6),76.5 (71.2–81.8),-0.12
+"Female, n (%)",53 (44%),44 (42%),35 (42%),0.04
+"Education, years",16.0 (14.0–18.0),16.0 (14.0–18.0),16.0 (13.8–18.0),0.24
+MMSE at or before baseline MRI,28.0 (26.5–29.0); n = 111,29.0 (26.0–29.0); n = 97,28.0 (26.0–29.0); n = 81,0.26
+"APOE ε4 carrier, n (%)",55 (45%),51 (48%),33 (40%); n = 83,0.12
+"ADNI phase at baseline MRI: ADNI1, n (%)",33 (27%),31 (29%),20 (24%),0.08
+"ADNI phase at baseline MRI: ADNIGO, n (%)",10 (8%),8 (8%),7 (8%),-0.00
+"ADNI phase at baseline MRI: ADNI2, n (%)",65 (54%),57 (54%),46 (55%),-0.02
+"ADNI phase at baseline MRI: ADNI3, n (%)",13 (11%),10 (9%),10 (12%),-0.04
+"Field strength 3 T at baseline MRI, n (%)",84 (69%),70 (66%),64 (76%),-0.15
+"Inter-scan interval, months",7.0 (5.8–11.7),7.7 (5.8–11.8),6.3 (5.4–11.9),0.10
+"Left hippocampus at baseline, mm³",3483 (3114–3766),3470 (3094–3782),3523 (3179–3746),-0.11
+"Left entorhinal cortex at baseline, mm³",1729 (1537–2087),1734 (1540–2158),1744 (1458–1954),0.17
+"Left lateral ventricle at baseline, mm³",19956 (14439–27656),19394 (14296–26834),23060 (15531–30129),-0.20
+"Estimated intracranial volume, mm³",1490909 (1395019–1636489),1489551 (1397573–1596794),1492377 (1391822–1582661),0.03
+"Annualized change, hippocampus, %/year",-4.5 (-9.3–-2.1),-4.1 (-8.6–-1.9),-6.4 (-9.2–-3.0),-0.00
+"Annualized change, entorhinal cortex, %/year",-2.1 (-13.0–8.6),-2.3 (-13.2–8.1),-1.6 (-14.4–12.7),-0.01
+"Annualized change, lateral ventricle, %/year",6.3 (3.0–11.0),6.0 (3.1–10.9),8.3 (4.2–12.2),-0.21
+"Recorded diagnostic assessments after the landmark, n",3 (2–5),3 (2–5),1 (0–3),1.25
+"No recorded diagnostic assessment after the landmark, n (%)",0 (0%),0 (0%),24 (29%),-0.89
+"Months from landmark to latest recorded assessment, among those with one",37.8 (24.1–72.1),36.9 (24.1–74.4),18.0 (11.9–24.3); n = 60,1.03
+"Outcome status: Recorded AD within 24 months, n",37,35,0,
+"Outcome status: Confirmed non-event, n",84,71,0,
+"Outcome status: Unclassified: insufficient follow-up, n",0,0,79,
+"Outcome status: Unclassified: death before the horizon, n",0,0,3,
+"Outcome status: Unclassified: other dementia or conflicting records, n",0,0,2,

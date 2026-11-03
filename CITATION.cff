@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the associated manuscript and the exact code commit used."
 type: software
-title: "Short-Interval MRI Volume Change and 24-Month Progression From MCI to Alzheimer's Disease: analysis code"
+title: "Short-Interval MRI Volume Change and 24-Month Recorded Alzheimer's Disease Diagnosis in Mild Cognitive Impairment: analysis code"
 authors:
   - family-names: Hyun
     given-names: Jaeyeol
@@ -17,7 +17,7 @@ authors:
   - family-names: Gaal
     given-names: Botond A
     orcid: "https://orcid.org/0009-0004-3925-2261"
-version: 2.0.1
-date-released: 2026-10-23
+version: 3.0.0
+date-released: 2026-11-04
 repository-code: "https://github.com/jmyee0919/leakage-controlled-dmri-mci-ad"
 license: MIT

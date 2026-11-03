@@ -1,0 +1,9 @@
+Analysis,Model,Predictors entered,Varying predictors,"Holdout development: base-estimator fits, N/events","Holdout development: calibration folds, N/events","Repeated CV: base-estimator fits, N range","Repeated CV: base-estimator fits, events range","Events per varying predictor, holdout fits"
+imaging,M1,3,3,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,5.7–6.0
+imaging,M2,9,6,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,2.8–3.0
+imaging,M3,3,3,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,5.7–6.0
+imaging,M4,9,6,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,2.8–3.0
+five_covariate,M1,8,8,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,2.1–2.2
+five_covariate,M2,14,11,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,1.5–1.6
+five_covariate,M3,8,8,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,2.1–2.2
+five_covariate,M4,14,11,"50/17, 51/18, 51/17","26/9, 25/8, 25/9",46–48,15–16,1.5–1.6

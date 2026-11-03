@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": 690,
+  "maximum_manual_prediction_difference": 5.057065877167588e-14,
+  "scope": "Frozen primary and broader cohorts; all 12 holdout arms and 360 outer cross-validation fits. Not raw-to-cohort reconstruction, image validation or external validation.",
+  "input_sha256": {
+    "primary.csv": "40d64a2c3ece2f4a4816c27844e9cc4b948ac7e2963c28d562fedff972ac5189",
+    "broader_QC.csv": "dbc3160c6a40f70f6df8576b6fc253ade9742bf77880e27c1cd3d5938468633e"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.0",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "statsmodels": "0.14.6"
+  }
+}

@@ -1,0 +1,151 @@
+analysis,comparison,metric,estimate,lower95,upper95,test_N,test_events,valid_draws,status
+primary,Snapshot,roc_auc,0.77248677248677244,0.53279545454545452,0.94523358585858575,30,9,500,ok
+primary,Snapshot,average_precision,0.6376543209876544,0.34175116981658571,0.91920319264069261,30,9,500,ok
+primary,Snapshot,brier,0.16267653451662792,0.10516321250529079,0.23400063112337299,30,9,500,ok
+primary,Snapshot,calibration_intercept,0.037219675964806354,-1.1512475502963784,1.6839702029166617,30,9,499,ok
+primary,Snapshot,calibration_slope,1.2392182027274332,0.29443888625862713,3.2548841523257637,30,9,499,ok
+primary,Snapshot+DeltaMRI,roc_auc,0.85185185185185186,0.68322063965446322,0.97707281144781144,30,9,500,ok
+primary,Snapshot+DeltaMRI,average_precision,0.74101916601916606,0.47843443627450982,0.95163194444444443,30,9,500,ok
+primary,Snapshot+DeltaMRI,brier,0.1431172460838393,0.09078956946226871,0.20829524611820441,30,9,500,ok
+primary,Snapshot+DeltaMRI,calibration_intercept,0.22501158733658047,-1.0548517759431169,3.4865374496118604,30,9,499,ok
+primary,Snapshot+DeltaMRI,calibration_slope,1.627139421648802,0.91038273546517934,4.6685207737759526,30,9,499,ok
+primary,augmented minus Snapshot,delta_roc_auc,0.079365079365079416,-0.013192287784679131,0.21616161616161617,30,9,500,conditional fixed-model percentile
+primary,augmented minus Snapshot,delta_average_precision,0.10336484503151167,-0.023582363360323887,0.24087762237762228,30,9,500,conditional fixed-model percentile
+primary,augmented minus Snapshot,delta_brier,-0.019559288432788619,-0.040052207435505215,0.0031119640428299588,30,9,500,conditional fixed-model percentile
+primary,augmented minus Snapshot,delta_calibration_intercept,0.18779191137177412,-0.49124642050981093,2.0122025756249182,30,9,499,conditional fixed-model percentile
+primary,augmented minus Snapshot,delta_calibration_slope,0.38792121892136877,-0.39816617119900577,2.2031237438195599,30,9,499,conditional fixed-model percentile
+five_covariate,Snapshot,roc_auc,0.80423280423280419,0.60215234644582472,0.95362529627235515,30,9,500,ok
+five_covariate,Snapshot,average_precision,0.66119071560248033,0.37163761337868478,0.91230582688915995,30,9,500,ok
+five_covariate,Snapshot,brier,0.16577939177843498,0.11344711332778111,0.23803596771976637,30,9,500,ok
+five_covariate,Snapshot,calibration_intercept,0.2871212269418002,-0.90594416651836096,2.4295441803327331,30,9,499,ok
+five_covariate,Snapshot,calibration_slope,1.5160339851210467,0.46171875874378254,3.8904297758224571,30,9,499,ok
+five_covariate,Snapshot+DeltaMRI,roc_auc,0.88888888888888884,0.74957407407407406,1,30,9,500,ok
+five_covariate,Snapshot+DeltaMRI,average_precision,0.74485236985236991,0.48925432900432897,1,30,9,500,ok
+five_covariate,Snapshot+DeltaMRI,brier,0.1426913246435681,0.098552983005364497,0.1984016272462317,30,9,500,ok
+five_covariate,Snapshot+DeltaMRI,calibration_intercept,0.55896243241977117,-0.72915519198148404,2.9352105197084666,30,9,484,ok
+five_covariate,Snapshot+DeltaMRI,calibration_slope,2.3603633985530093,1.3337431998894134,5.3587205172340555,30,9,484,ok
+five_covariate,augmented minus Snapshot,delta_roc_auc,0.084656084656084651,0.0023750000000001201,0.20999999999999996,30,9,500,conditional fixed-model percentile
+five_covariate,augmented minus Snapshot,delta_average_precision,0.083661654249889583,-0.0027152534965034316,0.2033757904193759,30,9,500,conditional fixed-model percentile
+five_covariate,augmented minus Snapshot,delta_brier,-0.023088067134866885,-0.04546067124384541,-0.0029522843418235138,30,9,500,conditional fixed-model percentile
+five_covariate,augmented minus Snapshot,delta_calibration_intercept,0.27184120547797097,-0.18320218098872432,1.3842792735017462,30,9,484,conditional fixed-model percentile
+five_covariate,augmented minus Snapshot,delta_calibration_slope,0.84432941343196255,0.26451655196315671,2.4867425589702061,30,9,484,conditional fixed-model percentile
+complete_MMSE,Snapshot,roc_auc,0.78676470588235292,0.57561592818945762,0.95351731601731593,25,8,500,ok
+complete_MMSE,Snapshot,average_precision,0.64623397435897434,0.32266806722689079,0.91763888888888878,25,8,500,ok
+complete_MMSE,Snapshot,brier,0.17823487093425644,0.10949460022146618,0.25443730416590493,25,8,500,ok
+complete_MMSE,Snapshot,calibration_intercept,0.41657230290023967,-0.96840848853797101,2.2666473448187663,25,8,499,ok
+complete_MMSE,Snapshot,calibration_slope,1.4145014652662926,0.43319144053740366,3.8512218197090595,25,8,499,ok
+complete_MMSE,Snapshot+DeltaMRI,roc_auc,0.84558823529411764,0.66249999999999998,0.97222222222222221,25,8,500,ok
+complete_MMSE,Snapshot+DeltaMRI,average_precision,0.74576569264069259,0.40603174603174608,0.94822420634920634,25,8,500,ok
+complete_MMSE,Snapshot+DeltaMRI,brier,0.16251861594915712,0.10094858829822093,0.22788825471810487,25,8,500,ok
+complete_MMSE,Snapshot+DeltaMRI,calibration_intercept,0.96598968727509338,-0.44505479582688184,3.5133713821281991,25,8,495,ok
+complete_MMSE,Snapshot+DeltaMRI,calibration_slope,2.2082794114400475,1.0126864750221938,5.6213768094264918,25,8,495,ok
+complete_MMSE,augmented minus Snapshot,delta_roc_auc,0.058823529411764719,-0.034848484848484886,0.16666666666666669,25,8,500,conditional fixed-model percentile
+complete_MMSE,augmented minus Snapshot,delta_average_precision,0.099531718281718251,-0.051817987567987576,0.26790182550292846,25,8,500,conditional fixed-model percentile
+complete_MMSE,augmented minus Snapshot,delta_brier,-0.015716254985099321,-0.033542769382085419,0.0020016715031382359,25,8,500,conditional fixed-model percentile
+complete_MMSE,augmented minus Snapshot,delta_calibration_intercept,0.54941738437485377,0.14391420517923997,1.9443722020461804,25,8,495,conditional fixed-model percentile
+complete_MMSE,augmented minus Snapshot,delta_calibration_slope,0.79377794617375486,0.1791520596867818,2.4097879881347501,25,8,495,conditional fixed-model percentile
+APOE,Snapshot,roc_auc,0.78306878306878303,0.58808148148148154,0.93579166666666658,30,9,500,ok
+APOE,Snapshot,average_precision,0.62809135881891298,0.34407321844821848,0.8832968828557064,30,9,500,ok
+APOE,Snapshot,brier,0.16917230790944579,0.11493631136487309,0.24155003626965263,30,9,500,ok
+APOE,Snapshot,calibration_intercept,0.28619699335811977,-0.93984872887993798,2.6150176733707755,30,9,499,ok
+APOE,Snapshot,calibration_slope,1.4644313206785289,0.49211679201640129,3.7346923899388833,30,9,499,ok
+APOE,Snapshot+DeltaMRI,roc_auc,0.8835978835978836,0.74244002525252517,1,30,9,500,ok
+APOE,Snapshot+DeltaMRI,average_precision,0.7374449624449626,0.47975980038480037,1,30,9,500,ok
+APOE,Snapshot+DeltaMRI,brier,0.14274686826565899,0.097492197725223828,0.20068183937022699,30,9,500,ok
+APOE,Snapshot+DeltaMRI,calibration_intercept,0.56650040648172306,-0.70912222454434393,3.0348952207513125,30,9,485,ok
+APOE,Snapshot+DeltaMRI,calibration_slope,2.3426789595980089,1.3662241718591732,4.8611042806143256,30,9,485,ok
+APOE,augmented minus Snapshot,delta_roc_auc,0.10052910052910058,0.012422360248447169,0.22950634057971023,30,9,500,conditional fixed-model percentile
+APOE,augmented minus Snapshot,delta_average_precision,0.10935360362604962,0.0084348290598290302,0.26026960784313713,30,9,500,conditional fixed-model percentile
+APOE,augmented minus Snapshot,delta_brier,-0.026425439643786797,-0.048233218589060274,-0.0051909838486031874,30,9,500,conditional fixed-model percentile
+APOE,augmented minus Snapshot,delta_calibration_intercept,0.2803034131236033,-0.20249147354538732,1.4815900334461967,30,9,485,conditional fixed-model percentile
+APOE,augmented minus Snapshot,delta_calibration_slope,0.87824763891947999,0.26769707188693231,2.496317984261327,30,9,485,conditional fixed-model percentile
+interval_ge6,Snapshot,roc_auc,0.7857142857142857,0.58653846153846145,0.96296296296296302,21,7,500,ok
+interval_ge6,Snapshot,average_precision,0.65317460317460307,0.31128535353535353,0.94071459790209777,21,7,500,ok
+interval_ge6,Snapshot,brier,0.18180353635516081,0.12208087417879265,0.24002759947976204,21,7,500,ok
+interval_ge6,Snapshot,calibration_intercept,0.37318309128289673,-0.99195363237244139,2.9069756172156072,21,7,498,ok
+interval_ge6,Snapshot,calibration_slope,1.8997275761228667,0.61291186728513469,5.7253845737327831,21,7,498,ok
+interval_ge6,Snapshot+DeltaMRI,roc_auc,0.76530612244897966,0.52998199279711888,0.96204326923076922,21,7,500,ok
+interval_ge6,Snapshot+DeltaMRI,average_precision,0.68174603174603177,0.3202651515151515,0.92455988455988447,21,7,500,ok
+interval_ge6,Snapshot+DeltaMRI,brier,0.17400077506184006,0.096104902590701119,0.25265448846890665,21,7,500,ok
+interval_ge6,Snapshot+DeltaMRI,calibration_intercept,0.11035987039460622,-1.173813739426063,1.971825120536838,21,7,496,ok
+interval_ge6,Snapshot+DeltaMRI,calibration_slope,1.2911116306670047,0.37038783518458457,3.2336706591193636,21,7,496,ok
+interval_ge6,augmented minus Snapshot,delta_roc_auc,-0.020408163265306034,-0.25000000000000006,0.17500000000000004,21,7,500,conditional fixed-model percentile
+interval_ge6,augmented minus Snapshot,delta_average_precision,0.028571428571428692,-0.25403746988305809,0.28689084724799002,21,7,500,conditional fixed-model percentile
+interval_ge6,augmented minus Snapshot,delta_brier,-0.007802761293320748,-0.062443111906287915,0.04644176558710731,21,7,500,conditional fixed-model percentile
+interval_ge6,augmented minus Snapshot,delta_calibration_intercept,-0.26282322088829052,-2.0748679543165118,1.3244439051438299,21,7,495,conditional fixed-model percentile
+interval_ge6,augmented minus Snapshot,delta_calibration_slope,-0.60861594545586195,-3.9001430170278617,1.618428789382419,21,7,495,conditional fixed-model percentile
+interval_shared,Snapshot,roc_auc,0.80423280423280419,0.59006211180124224,0.95650027056277032,30,9,500,ok
+interval_shared,Snapshot,average_precision,0.7223549397462441,0.43319454096628013,0.93043940718372509,30,9,500,ok
+interval_shared,Snapshot,brier,0.15207920357022855,0.096519761131104942,0.22220493011254114,30,9,500,ok
+interval_shared,Snapshot,calibration_intercept,0.25895481853014779,-0.86311735724812744,2.2575859317989573,30,9,499,ok
+interval_shared,Snapshot,calibration_slope,1.5124208744163261,0.66134774207767411,3.6922851467097622,30,9,499,ok
+interval_shared,Snapshot+DeltaMRI,roc_auc,0.86772486772486779,0.70159090909090904,0.98256899350649352,30,9,500,ok
+interval_shared,Snapshot+DeltaMRI,average_precision,0.77453703703703702,0.50534673659673657,0.97017602495543664,30,9,500,ok
+interval_shared,Snapshot+DeltaMRI,brier,0.13287255329988673,0.083231298036028245,0.20070296706989249,30,9,500,ok
+interval_shared,Snapshot+DeltaMRI,calibration_intercept,0.41245876595460551,-0.86827777558187358,3.4551192272089728,30,9,496,ok
+interval_shared,Snapshot+DeltaMRI,calibration_slope,1.8913185980565432,1.0821925984042999,4.788241765872586,30,9,496,ok
+interval_shared,augmented minus Snapshot,delta_roc_auc,0.0634920634920636,-0.011271739130434796,0.1759648148148148,30,9,500,conditional fixed-model percentile
+interval_shared,augmented minus Snapshot,delta_average_precision,0.052182097290792928,-0.0089338235294117302,0.16257108606972731,30,9,500,conditional fixed-model percentile
+interval_shared,augmented minus Snapshot,delta_brier,-0.019206650270341824,-0.034820861515460939,-0.0047855283894739989,30,9,500,conditional fixed-model percentile
+interval_shared,augmented minus Snapshot,delta_calibration_intercept,0.15350394742445772,-0.27555960509459154,1.5244731355102303,30,9,496,conditional fixed-model percentile
+interval_shared,augmented minus Snapshot,delta_calibration_slope,0.37889772364021712,-0.22898974209278708,2.0760597612828717,30,9,496,conditional fixed-model percentile
+second_MRI_snapshot,Snapshot,roc_auc,0.78835978835978826,0.55181375086266393,0.9502705095416093,30,9,500,ok
+second_MRI_snapshot,Snapshot,average_precision,0.65956450956450952,0.36842448739000461,0.93452380952380942,30,9,500,ok
+second_MRI_snapshot,Snapshot,brier,0.15697000455058246,0.098641851716860657,0.23733598192141861,30,9,500,ok
+second_MRI_snapshot,Snapshot,calibration_intercept,-0.022308824733400956,-1.2633759607704618,1.4778690486663406,30,9,499,ok
+second_MRI_snapshot,Snapshot,calibration_slope,1.1579247010562104,0.28075692577971401,3.0876568188496578,30,9,499,ok
+second_MRI_snapshot,Snapshot+DeltaMRI,roc_auc,0.8571428571428571,0.68527290723981904,0.97611882716049381,30,9,500,ok
+second_MRI_snapshot,Snapshot+DeltaMRI,average_precision,0.73638953638953653,0.45146969696969697,0.96041666666666659,30,9,500,ok
+second_MRI_snapshot,Snapshot+DeltaMRI,brier,0.14391573250965767,0.091174402812913988,0.2106586326569693,30,9,500,ok
+second_MRI_snapshot,Snapshot+DeltaMRI,calibration_intercept,0.094770075333603654,-1.1568783217061396,2.8811100775981218,30,9,498,ok
+second_MRI_snapshot,Snapshot+DeltaMRI,calibration_slope,1.4692469548575273,0.77786851560242209,4.0018833720555085,30,9,498,ok
+second_MRI_snapshot,augmented minus Snapshot,delta_roc_auc,0.068783068783068835,-0.010715909090909199,0.19940993788819866,30,9,500,conditional fixed-model percentile
+second_MRI_snapshot,augmented minus Snapshot,delta_average_precision,0.07682502682502701,-0.014992264679764746,0.17956997863247859,30,9,500,conditional fixed-model percentile
+second_MRI_snapshot,augmented minus Snapshot,delta_brier,-0.013054272040924797,-0.033224358796532016,0.004415104346978678,30,9,500,conditional fixed-model percentile
+second_MRI_snapshot,augmented minus Snapshot,delta_calibration_intercept,0.11707890006700461,-0.34731334775886735,1.644760757966901,30,9,498,conditional fixed-model percentile
+second_MRI_snapshot,augmented minus Snapshot,delta_calibration_slope,0.31132225380131695,-0.3441721016993291,1.7479821587513884,30,9,498,conditional fixed-model percentile
+availability_flags,Snapshot+flags,roc_auc,0.77248677248677244,0.53279545454545452,0.94523358585858575,30,9,500,ok
+availability_flags,Snapshot+flags,average_precision,0.6376543209876544,0.34175116981658571,0.91920319264069261,30,9,500,ok
+availability_flags,Snapshot+flags,brier,0.16267653451662792,0.1051632125052908,0.23400063112337299,30,9,500,ok
+availability_flags,Snapshot+flags,calibration_intercept,0.03721967596480652,-1.1512475502963786,1.6839702029166597,30,9,499,ok
+availability_flags,Snapshot+flags,calibration_slope,1.239218202727433,0.2944388862586273,3.2548841523257637,30,9,499,ok
+availability_flags,Snapshot+DeltaMRI+flags,roc_auc,0.85185185185185186,0.68322063965446322,0.97707281144781144,30,9,500,ok
+availability_flags,Snapshot+DeltaMRI+flags,average_precision,0.74101916601916606,0.47843443627450982,0.95163194444444443,30,9,500,ok
+availability_flags,Snapshot+DeltaMRI+flags,brier,0.1431172460838393,0.09078956946226871,0.20829524611820441,30,9,500,ok
+availability_flags,Snapshot+DeltaMRI+flags,calibration_intercept,0.22501158733658047,-1.0548517759431169,3.4865374496118604,30,9,499,ok
+availability_flags,Snapshot+DeltaMRI+flags,calibration_slope,1.627139421648802,0.91038273546517934,4.6685207737759526,30,9,499,ok
+availability_flags,augmented minus Snapshot,delta_roc_auc,0.079365079365079416,-0.013192287784679131,0.21616161616161617,30,9,500,conditional fixed-model percentile
+availability_flags,augmented minus Snapshot,delta_average_precision,0.10336484503151167,-0.023582363360323887,0.24087762237762228,30,9,500,conditional fixed-model percentile
+availability_flags,augmented minus Snapshot,delta_brier,-0.019559288432788619,-0.040052207435505215,0.0031119640428299588,30,9,500,conditional fixed-model percentile
+availability_flags,augmented minus Snapshot,delta_calibration_intercept,0.18779191137177395,-0.4912464205098111,2.0122025756249178,30,9,499,conditional fixed-model percentile
+availability_flags,augmented minus Snapshot,delta_calibration_slope,0.38792121892136899,-0.39816617119900566,2.2031237438195608,30,9,499,conditional fixed-model percentile
+full121_clinical_ICV_QC_missing,Snapshot,roc_auc,0.80000000000000004,0.62372887864823345,0.94348484848484848,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot,average_precision,0.64500345065562459,0.33247808174994137,0.87770092975206615,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot,brier,0.16031680999821271,0.11062180661114859,0.22201363016143805,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot,calibration_intercept,0.34954535878323711,-1.0040416676227466,2.0197719887891972,37,10,499,ok
+full121_clinical_ICV_QC_missing,Snapshot,calibration_slope,1.7217284238931403,0.66660038520768372,4.3692745693261505,37,10,499,ok
+full121_clinical_ICV_QC_missing,Snapshot+DeltaMRI,roc_auc,0.8925925925925926,0.7764341491841491,0.98443327505827505,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot+DeltaMRI,average_precision,0.73512075643654584,0.43392203282828284,0.95959529158624179,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot+DeltaMRI,brier,0.14045030908074019,0.097945908113232005,0.1869737354534374,37,10,500,ok
+full121_clinical_ICV_QC_missing,Snapshot+DeltaMRI,calibration_intercept,1.0508483896075771,-0.22321199763726979,4.3517092318600037,37,10,495,ok
+full121_clinical_ICV_QC_missing,Snapshot+DeltaMRI,calibration_slope,3.0765871851561561,1.8210242184220371,7.9801976853221497,37,10,495,ok
+full121_clinical_ICV_QC_missing,augmented minus Snapshot,delta_roc_auc,0.09259259259259256,0.011488095238095257,0.19892473118279574,37,10,500,conditional fixed-model percentile
+full121_clinical_ICV_QC_missing,augmented minus Snapshot,delta_average_precision,0.090117305780921253,0.00048195970695975729,0.20653737962040142,37,10,500,conditional fixed-model percentile
+full121_clinical_ICV_QC_missing,augmented minus Snapshot,delta_brier,-0.019866500917472524,-0.036718844676568343,-0.006298917465901545,37,10,500,conditional fixed-model percentile
+full121_clinical_ICV_QC_missing,augmented minus Snapshot,delta_calibration_intercept,0.70130303082433998,0.21907600052529319,2.745148884295554,37,10,495,conditional fixed-model percentile
+full121_clinical_ICV_QC_missing,augmented minus Snapshot,delta_calibration_slope,1.3548587612630159,0.6573991125028813,4.5937300480826115,37,10,495,conditional fixed-model percentile
+broader_QC,Snapshot,roc_auc,0.81481481481481477,0.63610714285714287,0.94929146537842179,33,9,500,ok
+broader_QC,Snapshot,average_precision,0.59450919450919448,0.30163311688311689,0.89005582979112385,33,9,500,ok
+broader_QC,Snapshot,brier,0.1614358320290791,0.11173216074496342,0.22247716981739948,33,9,500,ok
+broader_QC,Snapshot,calibration_intercept,0.37211145554817671,-0.99312903931220198,2.5714139122581865,33,9,499,ok
+broader_QC,Snapshot,calibration_slope,1.8066625336964222,0.6340736864760661,4.2532691930010138,33,9,499,ok
+broader_QC,Snapshot+DeltaMRI,roc_auc,0.91666666666666674,0.81428571428571428,0.99068478260869564,33,9,500,ok
+broader_QC,Snapshot+DeltaMRI,average_precision,0.79183285849952512,0.5540112863327149,0.98181818181818181,33,9,500,ok
+broader_QC,Snapshot+DeltaMRI,brier,0.1233636295004026,0.073643518671756752,0.18114460642853422,33,9,500,ok
+broader_QC,Snapshot+DeltaMRI,calibration_intercept,0.99601435454299103,-0.64241152028478721,7.859721993282589,33,9,492,ok
+broader_QC,Snapshot+DeltaMRI,calibration_slope,2.1588252111712585,1.10432350259276,8.2710324671264388,33,9,492,ok
+broader_QC,augmented minus Snapshot,delta_roc_auc,0.10185185185185197,-0.022939049586776828,0.2513979468599033,33,9,500,conditional fixed-model percentile
+broader_QC,augmented minus Snapshot,delta_average_precision,0.19732366399033063,-0.077688630813630727,0.442324428130349,33,9,500,conditional fixed-model percentile
+broader_QC,augmented minus Snapshot,delta_brier,-0.038072202528676505,-0.071894525286576569,3.9119143852688417e-05,33,9,500,conditional fixed-model percentile
+broader_QC,augmented minus Snapshot,delta_calibration_intercept,0.62390289899481433,-0.98498995066929118,6.4589429739440734,33,9,491,conditional fixed-model percentile
+broader_QC,augmented minus Snapshot,delta_calibration_slope,0.35216267747483632,-1.7149060000327641,6.3349305411096308,33,9,491,conditional fixed-model percentile

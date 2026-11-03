@@ -1,0 +1,81 @@
+analysis,comparison,metric,estimate,lower95,upper95,test_N,test_events,valid_draws
+imaging,M1,roc_auc,0.772487,0.532795,0.945234,30,9,500
+imaging,M1,average_precision,0.637654,0.341751,0.919203,30,9,500
+imaging,M1,brier,0.162677,0.105163,0.234001,30,9,500
+imaging,M1,calibration_intercept,0.037220,-1.151248,1.683970,30,9,499
+imaging,M1,calibration_slope,1.239218,0.294439,3.254884,30,9,499
+imaging,M2,roc_auc,0.851852,0.683221,0.977073,30,9,500
+imaging,M2,average_precision,0.741019,0.478434,0.951632,30,9,500
+imaging,M2,brier,0.143117,0.090790,0.208295,30,9,500
+imaging,M2,calibration_intercept,0.225012,-1.054852,3.486537,30,9,499
+imaging,M2,calibration_slope,1.627139,0.910383,4.668521,30,9,499
+imaging,M3,roc_auc,0.788360,0.551814,0.950271,30,9,500
+imaging,M3,average_precision,0.659565,0.368424,0.934524,30,9,500
+imaging,M3,brier,0.156970,0.098642,0.237336,30,9,500
+imaging,M3,calibration_intercept,-0.022309,-1.263376,1.477869,30,9,499
+imaging,M3,calibration_slope,1.157925,0.280757,3.087657,30,9,499
+imaging,M4,roc_auc,0.857143,0.685273,0.976119,30,9,500
+imaging,M4,average_precision,0.736390,0.451470,0.960417,30,9,500
+imaging,M4,brier,0.143916,0.091174,0.210659,30,9,500
+imaging,M4,calibration_intercept,0.094770,-1.156878,2.881110,30,9,498
+imaging,M4,calibration_slope,1.469247,0.777869,4.001883,30,9,498
+imaging,M2 minus M1,delta_roc_auc,0.079365,-0.013192,0.216162,30,9,500
+imaging,M2 minus M1,delta_average_precision,0.103365,-0.023582,0.240878,30,9,500
+imaging,M2 minus M1,delta_brier,-0.019559,-0.040052,0.003112,30,9,500
+imaging,M2 minus M1,delta_calibration_intercept,0.187792,-0.491246,2.012203,30,9,499
+imaging,M2 minus M1,delta_calibration_slope,0.387921,-0.398166,2.203124,30,9,499
+imaging,M3 minus M1,delta_roc_auc,0.015873,0.000000,0.059146,30,9,500
+imaging,M3 minus M1,delta_average_precision,0.021910,-0.000648,0.082487,30,9,500
+imaging,M3 minus M1,delta_brier,-0.005707,-0.021969,0.006688,30,9,500
+imaging,M3 minus M1,delta_calibration_intercept,-0.059529,-0.378300,0.135899,30,9,499
+imaging,M3 minus M1,delta_calibration_slope,-0.081294,-0.404801,0.464657,30,9,499
+imaging,M4 minus M3,delta_roc_auc,0.068783,-0.010716,0.199410,30,9,500
+imaging,M4 minus M3,delta_average_precision,0.076825,-0.014992,0.179570,30,9,500
+imaging,M4 minus M3,delta_brier,-0.013054,-0.033224,0.004415,30,9,500
+imaging,M4 minus M3,delta_calibration_intercept,0.117079,-0.347313,1.644761,30,9,498
+imaging,M4 minus M3,delta_calibration_slope,0.311322,-0.344172,1.747982,30,9,498
+imaging,M4 minus M2,delta_roc_auc,0.005291,-0.023555,0.044277,30,9,500
+imaging,M4 minus M2,delta_average_precision,-0.004630,-0.119594,0.100000,30,9,500
+imaging,M4 minus M2,delta_brier,0.000798,-0.007629,0.008857,30,9,500
+imaging,M4 minus M2,delta_calibration_intercept,-0.130242,-0.689860,-0.016542,30,9,498
+imaging,M4 minus M2,delta_calibration_slope,-0.157892,-0.777576,0.016483,30,9,498
+five_covariate,M1,roc_auc,0.804233,0.602152,0.953625,30,9,500
+five_covariate,M1,average_precision,0.661191,0.371638,0.912306,30,9,500
+five_covariate,M1,brier,0.165779,0.113447,0.238036,30,9,500
+five_covariate,M1,calibration_intercept,0.287121,-0.905944,2.429544,30,9,499
+five_covariate,M1,calibration_slope,1.516034,0.461719,3.890430,30,9,499
+five_covariate,M2,roc_auc,0.888889,0.749574,1.000000,30,9,500
+five_covariate,M2,average_precision,0.744852,0.489254,1.000000,30,9,500
+five_covariate,M2,brier,0.142691,0.098553,0.198402,30,9,500
+five_covariate,M2,calibration_intercept,0.558962,-0.729155,2.935211,30,9,484
+five_covariate,M2,calibration_slope,2.360363,1.333743,5.358721,30,9,484
+five_covariate,M3,roc_auc,0.825397,0.641088,0.959915,30,9,500
+five_covariate,M3,average_precision,0.689696,0.422669,0.927285,30,9,500
+five_covariate,M3,brier,0.156434,0.107044,0.224366,30,9,500
+five_covariate,M3,calibration_intercept,0.493032,-0.728310,2.995081,30,9,499
+five_covariate,M3,calibration_slope,1.823398,0.705751,4.689559,30,9,499
+five_covariate,M4,roc_auc,0.899471,0.758870,1.000000,30,9,500
+five_covariate,M4,average_precision,0.764032,0.492371,1.000000,30,9,500
+five_covariate,M4,brier,0.140966,0.099206,0.194487,30,9,500
+five_covariate,M4,calibration_intercept,0.574093,-0.700708,2.799283,30,9,485
+five_covariate,M4,calibration_slope,2.527392,1.467156,5.512088,30,9,485
+five_covariate,M2 minus M1,delta_roc_auc,0.084656,0.002375,0.210000,30,9,500
+five_covariate,M2 minus M1,delta_average_precision,0.083662,-0.002715,0.203376,30,9,500
+five_covariate,M2 minus M1,delta_brier,-0.023088,-0.045461,-0.002952,30,9,500
+five_covariate,M2 minus M1,delta_calibration_intercept,0.271841,-0.183202,1.384279,30,9,484
+five_covariate,M2 minus M1,delta_calibration_slope,0.844329,0.264517,2.486743,30,9,484
+five_covariate,M3 minus M1,delta_roc_auc,0.021164,-0.055737,0.120871,30,9,500
+five_covariate,M3 minus M1,delta_average_precision,0.028506,-0.056301,0.128852,30,9,500
+five_covariate,M3 minus M1,delta_brier,-0.009346,-0.026539,0.003230,30,9,500
+five_covariate,M3 minus M1,delta_calibration_intercept,0.205911,-0.166261,0.895141,30,9,499
+five_covariate,M3 minus M1,delta_calibration_slope,0.307364,-0.346569,1.412493,30,9,499
+five_covariate,M4 minus M3,delta_roc_auc,0.074074,0.000000,0.206349,30,9,500
+five_covariate,M4 minus M3,delta_average_precision,0.074336,0.000000,0.204585,30,9,500
+five_covariate,M4 minus M3,delta_brier,-0.015468,-0.034901,0.002682,30,9,500
+five_covariate,M4 minus M3,delta_calibration_intercept,0.081061,-0.440905,1.162748,30,9,485
+five_covariate,M4 minus M3,delta_calibration_slope,0.703994,-0.178413,2.643587,30,9,485
+five_covariate,M4 minus M2,delta_roc_auc,0.010582,-0.019187,0.060000,30,9,500
+five_covariate,M4 minus M2,delta_average_precision,0.019180,-0.027720,0.111082,30,9,500
+five_covariate,M4 minus M2,delta_brier,-0.001726,-0.010915,0.004656,30,9,500
+five_covariate,M4 minus M2,delta_calibration_intercept,0.015131,-0.230693,0.216400,30,9,484
+five_covariate,M4 minus M2,delta_calibration_slope,0.167029,-0.284037,1.127456,30,9,484

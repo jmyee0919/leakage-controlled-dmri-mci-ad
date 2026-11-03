@@ -1,0 +1,13 @@
+# Independent verification environment; Python 3.12.14
+numpy==2.3.5
+pandas==3.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+statsmodels==0.14.6
+patsy==1.0.2
+PyYAML==6.0.3
+
+# Optional deterministic PDF-label patch
+PyMuPDF==1.26.6
+Pillow==13.0.0
